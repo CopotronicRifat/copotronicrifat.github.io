@@ -6,7 +6,8 @@
 // you can't set up CORS on the DZI server for whatever reason. That used to be fairly common, but now it's much more rare. 
 
 // Change this to the path to your "_files" directory on the remote server. 
-var dziFilesUrl = 'https://github.com/CopotronicRifat/copotronicrifat.github.io/tree/master/mesh_files/';
+var dziFilesUrl = '//copotronicrifat.github.io/mesh_files/';
+
 
 
 
