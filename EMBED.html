@@ -29,8 +29,7 @@
 	  var dziFilesUrl = 'https://drive.google.com/drive/folders/13zgWeO88OJWumktB42URK_UOwIgeilgV?usp=sharing';
 
 // Change this to the contents of the .dzi file from your server. 
-	var dziData = '<?xml version="1.0" encoding="UTF-8"?> <Image xmlns="http://schemas.microsoft.com/deepzoom/2008" Format="png" Overlap="1" TileSize="1024"> <Size Height="600000" Width="600000"/></Image>';
- 
+	var dziData = '<?xml version="1.0" encoding="utf-8"?><Image TileSize="1024" Overlap="1" Format="png" xmlns="http://schemas.microsoft.com/deepzoom/2008"><Size Width="600000" Height="600000"/></Image>';
 	var tileSourceFromData = function(data, filesUrl) {
 	var $xml = $($.parseXML(data));
   var $image = $xml.find('Image');
