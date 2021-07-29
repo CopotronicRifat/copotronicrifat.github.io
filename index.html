@@ -1,21 +1,50 @@
 <html>
   <head>
-    <style type="text/css">
-      #mesh {
-        width: 400px;
-        height: 300px;
-      }
-    </style>
+  
+    
   </head>
   <body>
+  <style type="text/css">
+      #mesh {
+        width: 1000px;
+        height: 1000px;
+      }
+    </style>
     <div id="mesh"></div>
     <script src="openseadragon/openseadragon.min.js"></script>
     <script>
-      var viewer = OpenSeadragon({
-        id:            'foo',
-        prefixUrl:     'openseadragon/images/',
-        tileSources:   'dzi/mesh.dzi'
-      });
+      
+		var dziFilesUrl = 'https://drive.google.com/drive/folders/13zgWeO88OJWumktB42URK_UOwIgeilgV?usp=sharing';
+		var dziData = '<?xml version="1.0" encoding="utf-8"?><Image TileSize="1024" Overlap="1" Format="png" xmlns="http://schemas.microsoft.com/deepzoom/2008"><Size Width="600000" Height="600000"/></Image>';
+		var tileSourceFromData = function(data, filesUrl) {
+		var $xml = $($.parseXML(data));
+		var $image = $xml.find('Image');
+		var $size = $xml.find('Size');
+
+		var dzi = {
+			Image: {
+					xmlns: $image.attr('xmlns'),
+					Url: filesUrl,
+					Format: $image.attr('Format'),
+					Overlap: $image.attr('Overlap'),
+					TileSize: $image.attr('TileSize'),
+					Size: {
+						Height: $size.attr('Height'),
+						Width: $size.attr('Width')
+							}
+					}
+				};  
+  
+				console.log(dzi);
+				return dzi;
+				};
+
+// This creates the actual viewer. 
+	var viewer = OpenSeadragon({
+  id: 'mesh',
+  prefixUrl: 'https://drive.google.com/file/d/1H4swaeTBc66V9iDdhXq8ZhiSLRdRyxoF/view?usp=sharing',
+  tileSources: tileSourceFromData(dziData, dziFilesUrl)
+});
     </script>
   </body>
 </html>
