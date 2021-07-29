@@ -1,52 +1,21 @@
 <html>
   <head>
-  
-    
-  </head>
-  <body>
-  <style type="text/css">
-      #openseadragon1 {
-        width: 1000px;
-        height: 1000px;
+    <style type="text/css">
+      #mesh {
+        width: 400px;
+        height: 300px;
       }
     </style>
-    <div id="openseadragon1"></div>
+  </head>
+  <body>
+    <div id="mesh"></div>
     <script src="openseadragon/openseadragon.min.js"></script>
     <script>
-      
-	  var dziFilesUrl = '//openseadragon.github.io/example-images/duomo/duomo_files/';
-
-// Change this to the contents of the .dzi file from your server. 
-	var dziData = '<?xml version="1.0" encoding="utf-8"?><Image TileSize="1024" Overlap="1" Format="png" xmlns="http://schemas.microsoft.com/deepzoom/2008"><Size Width="13920" Height="10200"/></Image>';
-	var tileSourceFromData = function(data, filesUrl) {
-	var $xml = $($.parseXML(data));
-  var $image = $xml.find('Image');
-  var $size = $xml.find('Size');
-
-  var dzi = {
-    Image: {
-      xmlns: $image.attr('xmlns'),
-      Url: filesUrl,
-      Format: $image.attr('Format'),
-      Overlap: $image.attr('Overlap'),
-      TileSize: $image.attr('TileSize'),
-      Size: {
-        Height: $size.attr('Height'),
-        Width: $size.attr('Width')
-      }
-    }
-  };  
-  
-  console.log(dzi);
-  return dzi;
-};
-
-// This creates the actual viewer. 
-	var viewer = OpenSeadragon({
-  id: 'openseadragon1',
-  prefixUrl: 'openseadragon/images/',
-  tileSources: tileSourceFromData(dziData, dziFilesUrl)
-});
+      var viewer = OpenSeadragon({
+        id:            'foo',
+        prefixUrl:     'openseadragon/images/',
+        tileSources:   'dzi/mesh.dzi'
+      });
     </script>
   </body>
 </html>
