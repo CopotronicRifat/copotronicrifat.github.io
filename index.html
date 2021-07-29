@@ -1,21 +1,52 @@
 <html>
   <head>
-    <style type="text/css">
-      #mesh {
-        width: 500px;
-        height: 500px;
-      }
-    </style>
+  
+    
   </head>
   <body>
-    <div id="mesh"></div>
+  <style type="text/css">
+      #openseadragon1 {
+        width: 1000px;
+        height: 1000px;
+      }
+    </style>
+    <div id="openseadragon1"></div>
     <script src="openseadragon/openseadragon.min.js"></script>
     <script>
-      var viewer = OpenSeadragon({
-        id:            'mesh',
-        prefixUrl:     'openseadragon/images/',
-        tileSources:   'https://drive.google.com/file/d/1H4swaeTBc66V9iDdhXq8ZhiSLRdRyxoF/view?usp=sharing'
-      });
+      
+	  var dziFilesUrl = '//drive.google.com/drive/folders/13zgWeO88OJWumktB42URK_UOwIgeilgV/';
+
+// Change this to the contents of the .dzi file from your server. 
+	var dziData = '<?xml version="1.0" encoding="utf-8"?><Image TileSize="1024" Overlap="1" Format="png" xmlns="http://schemas.microsoft.com/deepzoom/2008"><Size Width="600000" Height="600000"/></Image>';
+	var tileSourceFromData = function(data, filesUrl) {
+	var $xml = $($.parseXML(data));
+  var $image = $xml.find('Image');
+  var $size = $xml.find('Size');
+
+  var dzi = {
+    Image: {
+      xmlns: $image.attr('xmlns'),
+      Url: filesUrl,
+      Format: $image.attr('Format'),
+      Overlap: $image.attr('Overlap'),
+      TileSize: $image.attr('TileSize'),
+      Size: {
+        Height: $size.attr('Height'),
+        Width: $size.attr('Width')
+      }
+    }
+  };  
+  
+  console.log(dzi);
+  return dzi;
+};
+
+// This creates the actual viewer. 
+	var viewer = OpenSeadragon({
+  id: 'openseadragon1',
+  prefixUrl: 'openseadragon/images/',
+  tileSources: tileSourceFromData(dziData, dziFilesUrl)
+});
     </script>
   </body>
 </html>
