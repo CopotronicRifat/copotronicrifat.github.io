@@ -928,36 +928,7 @@ body.offcanvas {
 
 
 
-.edu-entry {
-  margin-bottom: 30px;
-  padding: 20px;
-  background: #f9f9f9;
-  border: 1px solid #e6e6e6;
-  border-radius: 5px;
-}
 
-.edu-entry h3 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.edu-institute {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-.edu-duration {
-  font-style: italic;
-  color: #777;
-  margin-bottom: 10px;
-}
-
-.edu-description {
-  margin-top: 10px;
-  font-size: 1em;
-  color: #555;
-}
 .project {
   background-size: cover;
   background-position: center center;
