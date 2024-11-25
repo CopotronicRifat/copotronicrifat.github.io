@@ -262,47 +262,39 @@
     <div class="colorlib-narrow-content">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span class="heading-meta">Academics</span>
                 <h2 class="colorlib-heading">Educational Background</h2>
             </div>
         </div>
         <div class="row">
-            <!-- PhD Section -->
-            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-                <div class="edu-entry">
-                    <h3>Ph.D. in Computer Science</h3>
-                    <p class="edu-institute">
-                        <a href="https://cas.okstate.edu/department_of_computer_science/" target="_blank" rel="noopener noreferrer">
-                            Department of Computer Science, Oklahoma State University
-                        </a>
-                    </p>
-                    <p class="edu-duration">August 2022 - Present</p>
-                    <p class="edu-description">Working on Big Data Analysis under the supervision of 
-                        <a href="https://arunkumar.okstate.edu/" target="_blank" rel="noopener noreferrer">
-                            Dr. Arunkumar Bagavathi
-                        </a>.
-                    </p>
-                </div>
+            <div class="col-md-12">
+                <h3>Ph.D. in Computer Science</h3>
+                <p>
+                    <a href="https://cas.okstate.edu/department_of_computer_science/" target="_blank" rel="noopener noreferrer">
+                        Oklahoma State University
+                    </a>, August 2022 - Present
+                </p>
+                <p>
+                    Research on Big Data Analysis under 
+                    <a href="https://arunkumar.okstate.edu/" target="_blank" rel="noopener noreferrer">
+                        Dr. Arunkumar Bagavathi
+                    </a>.
+                </p>
             </div>
-
-            <!-- Bachelor's Section -->
-            <div class="col-md-12 animate-box" data-animate-effect="fadeInRight">
-                <div class="edu-entry">
-                    <h3>Bachelor of Science in Computer Science and Engineering</h3>
-                    <p class="edu-institute">
-                        <a href="https://ruet.ac.bd/" target="_blank" rel="noopener noreferrer">
-                            Department of Computer Science and Engineering, Rajshahi University of Engineering and Technology
-                        </a>
-                    </p>
-                    <p class="edu-duration">January 2012 - October 2016</p>
-                    <p class="edu-description">
-                        Graduated with a strong foundation in computational theory, algorithms, and software development.
-                    </p>
-                </div>
+            <div class="col-md-12">
+                <h3>Bachelor of Science in Computer Science and Engineering</h3>
+                <p>
+                    <a href="https://ruet.ac.bd/" target="_blank" rel="noopener noreferrer">
+                        Rajshahi University of Engineering and Technology
+                    </a>, January 2012 - October 2016
+                </p>
+                <p>
+                    Specialized in computational theory, algorithms, and software development.
+                </p>
             </div>
         </div>
     </div>
 </section>
+
 
 
 			<section class="colorlib-experience" data-section="experience">
