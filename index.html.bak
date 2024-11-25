@@ -432,54 +432,54 @@
 					</div>
 					<b><i>(Most Recent First)</i></b>
 <ul>
-    <li><b>Image Embedding with Classification by Deep Neural Networks.</b> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Embedding" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://dl.acm.org/doi/abs/10.1145/3542954.3543021" target="_blank" rel="noopener noreferrer">[Paper Link]</a></li>
-    <br>
+    <li><b>Image Embedding with Classification by Deep Neural Networks.</b> </br> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Embedding" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://dl.acm.org/doi/abs/10.1145/3542954.3543021" target="_blank" rel="noopener noreferrer">[Paper Link]</a></li>
+
     
-    <li><b>Data Augmentation with Generative Adversarial Networks.</b> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/ADA-GAN" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://www.youtube.com/watch?v=h8uP7wkWzSQ&ab_channel=SMRafiuddinRifat" target="_blank" rel="noopener noreferrer">[Demo]</a></li>
-    <br>
+    <li><b>Data Augmentation with Generative Adversarial Networks.</b> </br> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/ADA-GAN" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://www.youtube.com/watch?v=h8uP7wkWzSQ&ab_channel=SMRafiuddinRifat" target="_blank" rel="noopener noreferrer">[Demo]</a></li>
+
     
-    <li><b>Protein Structure Prediction.</b> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Protein-Structure-Prediction-using-PyRosetta" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
-    <br>
+    <li><b>Protein Structure Prediction.</b> </br> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Protein-Structure-Prediction-using-PyRosetta" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+
     
-    <li><b>Phylogenetic Tree Construction with Genetic Algorithms.</b> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Phylogenetic-Tree-Analysis-with-Genetic-Algorithms" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/9068849" target="_blank" rel="noopener noreferrer">[Paper Link]</a></li>
-    <br>
+    <li><b>Phylogenetic Tree Construction with Genetic Algorithms.</b> </br> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Phylogenetic-Tree-Analysis-with-Genetic-Algorithms" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/9068849" target="_blank" rel="noopener noreferrer">[Paper Link]</a></li>
+
     
-    <li><b>Performance Analysis of Text classification in Natural Language Processing with Supervised Machine Learning Algorithms.</b> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Text-Classification-using-Supervised-Learning-Algorithms" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/7860233/" target="_blank" rel="noopener noreferrer">[Paper Link]</a></li>
-    <br>
+    <li><b>Performance Analysis of Text classification in Natural Language Processing with Supervised Machine Learning Algorithms.</b> </br> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Text-Classification-using-Supervised-Learning-Algorithms" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/7860233/" target="_blank" rel="noopener noreferrer">[Paper Link]</a></li>
+
 </ul>
 
     </b>
 				</div>
-			</section>
+				
+				
+<section class="colorlib-blog" data-section="publication">
+    <div class="colorlib-narrow-content">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <span class="heading-meta">Publications</span>
+                <h2 class="colorlib-heading animate-box">CONFERENCE PAPERS</h2>
+            </div>
+        </div>
+        <b><i>(Most Recent First)</i></b>
+        
+        <ol type="1">
+            <li><b>Rafiuddin, S.M.</b>, Rakib, M., Kamal, S. and Bagavathi, A., 2024, April. <a style="text-decoration:none" href="https://link.springer.com/chapter/10.1007/978-981-97-2266-2_12" target="_blank" rel="noopener noreferrer"><b>Exploiting Adaptive Contextual Masking for Aspect-Based Sentiment Analysis.</b></a> <i>In Pacific-Asia Conference on Knowledge Discovery and Data Mining (pp. 147-159). Singapore: Springer Nature Singapore.</i> <b>(Acceptance Rate: 18.47%)</b></li>
+            <br>
+            <li>Karim, M. A., <b>Rafiuddin, S. M.</b>, Islam Razin, M. J., & Alam, T. (2022, March). <a style="text-decoration:none" href="https://dl.acm.org/doi/abs/10.1145/3542954.3542957" target="_blank" rel="noopener noreferrer"><b>Isolated Bangla Handwritten Character Classification using Transfer Learning.</b></a> <i>In Proceedings of the 2nd International Conference on Computing Advancements</i> (pp. 11-17).</li>
+            <br>
+            <li><b>Rafiuddin, S. M. </b>(2022, March). <a style="text-decoration:none" href="https://dl.acm.org/doi/abs/10.1145/3542954.3543021" target="_blank" rel="noopener noreferrer"><b>High Cursive Complex Character Recognition using GAN External Classifier.</b></a> <i>In Proceedings of the 2nd International Conference on Computing Advancements</i> (pp. 466-472).</li>
+            <br>
+            <li>Razin, J. I., Abdul Karim, M., Mridha, M. F., <b>Rafiuddin Rifat, S. M.</b>, & Alam, T. (2021). <a style="text-decoration:none" href="https://link.springer.com/chapter/10.1007/978-981-15-8677-4_1" target="_blank" rel="noopener noreferrer"><b>A Long Short-Term Memory (LSTM) Model for Business Sentiment Analysis Based on Recurrent Neural Network.</b></a> <i>In Sustainable Communication Networks and Application</i> (pp. 1-15). Springer, Singapore.</li>
+            <br>
+            <li><b>Rafiuddin, S. M. </b>(2019, December). <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/9068849" target="_blank" rel="noopener noreferrer"><b>Estimation of Phylogenetic Tree using Gene Sequencing Data.</b></a> <i>Electrical Information and Communication Technology (EICT), 2019 4th International Conference on.</i> IEEE, 2019.</li>
+            <br>
+            <li><b>Rafiuddin, S. M. </b>(2017, December). <a style="text-decoration:none" href="https://ieeexplore.ieee.org/document/8275214/" target="_blank" rel="noopener noreferrer"><b>Ranking of Bangla word graph using graph based ranking algorithms.</b></a> <i>Electrical Information and Communication Technology (EICT), 2017 3rd International Conference on.</i> IEEE, 2017.</li>
+            <br>
+            <li>Mishu, Sadia Zaman, and <b>S. M. Rafiuddin</b> (2016, December). <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/7860233/" target="_blank" rel="noopener noreferrer"><b>Performance analysis of supervised machine learning algorithms for text classification.</b></a> <i>Computer and Information Technology (ICCIT), 2016 19th International Conference on.</i> IEEE, 2016.</li>
+        </ol>
+    </div>
+</section>
 
-			<section class="colorlib-blog" data-section="publication">
-			<div class="colorlib-narrow-content">
-			<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Publications</span>
-							<h2 class="colorlib-heading animate-box">CONFERENCE PAPERS</h2>
-						</div>
-					</div>
-				<b><i>(Most Recent First)</i></b>
-    
-	
-	<ol type="1">
-	  
-	<li><b>Rafiuddin, S.M.</b>, Rakib, M., Kamal, S. and Bagavathi, A., 2024, April. <a style="text-decoration:none" style="text-decoration: none" href="https://link.springer.com/chapter/10.1007/978-981-97-2266-2_12" target="_blank" rel="noopener noreferrer">Exploiting Adaptive Contextual Masking for Aspect-Based Sentiment Analysis.</a> <i>In Pacific-Asia Conference on Knowledge Discovery and Data Mining (pp. 147-159). Singapore: Springer Nature Singapore. </i><b>(Acceptance Rate: 18.47%)</b></li>
-    <br>
-	<li>Karim, M. A., <b>Rafiuddin, S. M.</b>, Islam Razin, M. J., & Alam, T. (2022, March). <a style="text-decoration:none" style="text-decoration: none" href="https://dl.acm.org/doi/abs/10.1145/3542954.3542957" target="_blank" rel="noopener noreferrer">Isolated Bangla Handwritten Character Classification using Transfer Learning.</a> <i>In Proceedings of the 2nd International Conference on Computing Advancements</i> (pp. 11-17). </li>
-    <br>
-	<li><b>Rafiuddin, S. M. </b>(2022, March). <a style="text-decoration:none" style="text-decoration: none" href="https://dl.acm.org/doi/abs/10.1145/3542954.3543021" target="_blank" rel="noopener noreferrer">High Cursive Complex Character Recognition using GAN External Classifier.</a> <i>In Proceedings of the 2nd International Conference on Computing Advancements </i>(pp. 466-472).</li>
-	<br>
-	<li>Razin, J. I., Abdul Karim, M., Mridha, M. F., <b>Rafiuddin Rifat, S. M.</b>, & Alam, T. (2021). <a style="text-decoration:none" style="text-decoration: none" href="https://link.springer.com/chapter/10.1007/978-981-15-8677-4_1" target="_blank" rel="noopener noreferrer">A Long Short-Term Memory (LSTM) Model for Business Sentiment Analysis Based on Recurrent Neural Network. </a><i>In Sustainable Communication Networks and Application</i> (pp. 1-15). Springer, Singapore. </li>
-	<br>
-	<li><b>Rafiuddin, S. M. </b>(2019, December). <a style="text-decoration:none" style="text-decoration: none" href="https://ieeexplore.ieee.org/abstract/document/9068849" target="_blank" rel="noopener noreferrer">Estimation of Phylogenetic Tree using Gene Sequencing Data.</a> <i>Electrical Information and Communication Technology (EICT), 2019 4th International Conference on.</i> IEEE, 2019.</li>
-	<br>
-	<li><b>Rafiuddin, S. M. </b>(2017, December). <a style="text-decoration:none" style="text-decoration: none" href="https://ieeexplore.ieee.org/document/8275214/" target="_blank" rel="noopener noreferrer">Ranking of Bangla word graph using graph based ranking algorithms.</a> <i>Electrical Information and Communication Technology (EICT), 2017 3rd International Conference on.</i> IEEE, 2017.</li>
-	<br>
-	<li>Mishu, Sadia Zaman, and <b>S. M. Rafiuddin</b> (2016, December). <a style="text-decoration:none" style="text-decoration: none" href="https://ieeexplore.ieee.org/abstract/document/7860233/" target="_blank" rel="noopener noreferrer">Performance analysis of supervised machine learning algorithms for text classification.</a> <i>Computer and Information Technology (ICCIT), 2016 19th International Conference on.</i> IEEE, 2016.</li>
-	</ol>
-			</section>
 
 
 
