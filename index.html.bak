@@ -496,11 +496,12 @@
 				
     
 	
-	<ul>
-        <li>List of Movies and TV Series I watched with rating - <a style="text-decoration:none" href="https://www.imdb.com/user/ur41352434/ratings?ref_=nv_usr_rt_4" target="_blank" rel="noopener noreferrer">IMDb Link</a></li>
-        <li>A Survival Guide to a PhD - <a style="text-decoration:none" href="https://karpathy.github.io/2016/09/07/phd/" target="_blank" rel="noopener noreferrer">Andrej Karpathy</a></li>       
-		<li><a style="text-decoration:none" href="https://www.cs.virginia.edu/~evans/advice/" target="_blank" rel="noopener noreferrer">Advice Collection</a> by <a style="text-decoration:none" href="https://www.cs.virginia.edu/~evans/" target="_blank" rel="noopener noreferrer">Dr. David Evans</a></li>
-    </ul>
+<ul>
+    <li>List of Movies and TV Series I watched with rating - <a style="text-decoration:none" href="https://www.imdb.com/user/ur41352434/ratings?ref_=nv_usr_rt_4" target="_blank" rel="noopener noreferrer"><b>IMDb Link</b></a></li>
+    <li>A Survival Guide to a PhD - <a style="text-decoration:none" href="https://karpathy.github.io/2016/09/07/phd/" target="_blank" rel="noopener noreferrer"><b>Andrej Karpathy</b></a></li>
+    <li><a style="text-decoration:none" href="https://www.cs.virginia.edu/~evans/advice/" target="_blank" rel="noopener noreferrer"><b>Advice Collection</b></a> by <a style="text-decoration:none" href="https://www.cs.virginia.edu/~evans/" target="_blank" rel="noopener noreferrer"><b>Dr. David Evans</b></a></li>
+</ul>
+
 
 
 
