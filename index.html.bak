@@ -270,8 +270,8 @@
             <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                 <!-- PhD Section -->
                 <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">PhD in Computer Science</h4>
+                    <div class="panel-heading" style="background-color: #007BFF; color: white; padding: 10px;">
+                        <h4 class="panel-title"><b>Ph.D. in Computer Science</b></h4>
                     </div>
                     <div class="panel-body">
                         <div class="row">
@@ -287,8 +287,8 @@
 
                 <!-- Bachelor's Section -->
                 <div class="panel panel-default" style="margin-top: 20px;">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">Bachelor of Science in Computer Science and Engineering</h4>
+                    <div class="panel-heading" style="background-color: #007BFF; color: white; padding: 10px;">
+                        <h4 class="panel-title"><b>Bachelor of Science in Computer Science and Engineering</b></h4>
                     </div>
                     <div class="panel-body">
                         <div class="row">
@@ -305,6 +305,7 @@
         </div>
     </div>
 </section>
+
 
 
 
