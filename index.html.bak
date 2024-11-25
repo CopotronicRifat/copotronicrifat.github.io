@@ -182,7 +182,7 @@
     Welcome! I am a third-year Ph.D. candidate in <a style="text-decoration:none" href="https://cas.okstate.edu/department_of_computer_science/" target="_blank" rel="noopener noreferrer">Computer Science</a> at <a style="text-decoration:none" href="https://go.okstate.edu/" target="_blank" rel="noopener noreferrer">Oklahoma State University</a>.
 </p>
 <p>
-    I am part of the <a style="text-decoration:none" href="https://arunkumar.okstate.edu/complex-system-lab/" target="_blank" rel="noopener noreferrer">Complex System Lab</a>, where I work under the supervision of <a style="text-decoration:none" href="https://arunkumar.okstate.edu/" target="_blank" rel="noopener noreferrer">Dr. Arunkumar Bagavathi</a>, focusing on cutting-edge research in Big Data Analysis.
+    I am part of the <a style="text-decoration:none" href="https://arunkumar.okstate.edu/" target="_blank" rel="noopener noreferrer">Complex System Lab</a>, where I work under the supervision of <a style="text-decoration:none" href="https://arunkumar.okstate.edu/" target="_blank" rel="noopener noreferrer">Dr. Arunkumar Bagavathi</a>, focusing on cutting-edge research in Big Data Analysis.
 </p>
 <p>
     Previously, I served as a <a style="text-decoration:none" href="https://cse.uap-bd.edu/faculty/faculty_details/19" target="_blank" rel="noopener noreferrer">Lecturer</a> in the <a style="text-decoration:none" href="https://cse.uap-bd.edu" target="_blank" rel="noopener noreferrer">Computer Science and Engineering department</a> at <a style="text-decoration:none" href="https://uap-bd.edu/" target="_blank" rel="noopener noreferrer">University of Asia Pacific</a>, where I taught Machine Learning and Computer Graphics courses.
@@ -262,34 +262,50 @@
     <div class="colorlib-narrow-content">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <h2 class="colorlib-heading">Educational Background</h2>
+                <span class="heading-meta">Education</span>
+                <h2 class="colorlib-heading animate-box">INSTITUTES AND DEGREES</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <p><b>Ph.D. in Computer Science</b></p>
-                <p>
-                    <a href="https://cas.okstate.edu/department_of_computer_science/" target="_blank" rel="noopener noreferrer">
-                        Oklahoma State University
-                    </a>, August 2022 - Present
-                </p>
-                <p>Working on Big Data Analysis under 
-                    <a href="https://arunkumar.okstate.edu/" target="_blank" rel="noopener noreferrer">
-                        Dr. Arunkumar Bagavathi
-                    </a>.
-                </p>
-            </div>
-            <div class="col-md-12" style="margin-top: 10px;">
-                <p><b>Bachelor of Science in Computer Science and Engineering</b></p>
-                <p>
-                    <a href="https://ruet.ac.bd/" target="_blank" rel="noopener noreferrer">
-                        Rajshahi University of Engineering and Technology
-                    </a>, January 2012 - October 2016
-                </p>
+            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                <!-- PhD Section -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">PhD in Computer Science</h4>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Department of Computer Science at Oklahoma State University</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>August 2022 - Present</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bachelor's Section -->
+                <div class="panel panel-default" style="margin-top: 20px;">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Bachelor of Science in Computer Science and Engineering</h4>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Department of Computer Science and Engineering at Rajshahi University of Engineering and Technology</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>January 2012 - October 2016</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 
 
 
