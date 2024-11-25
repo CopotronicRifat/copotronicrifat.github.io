@@ -271,15 +271,16 @@
                 <!-- PhD Section -->
                 <div class="panel panel-default">
                     <div class="panel-heading" style="background-color: #007BFF; color: white; padding: 10px;">
-                        <h4 class="panel-title"><b>Ph.D. in Computer Science</b></h4>
+                        <h4 class="panel-title">PhD in Computer Science</h4>
                     </div>
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-md-6">
-                                <p>Department of Computer Science at Oklahoma State University</p>
+                                <p><a href="https://cas.okstate.edu/computer_science/" target="_blank" rel="noopener noreferrer">Department of Computer Science</a></p>
+                                <p style="margin-top: -10px;"><b><a href="https://go.okstate.edu/" target="_blank" rel="noopener noreferrer">Oklahoma State University</a></b></p>
                             </div>
                             <div class="col-md-6">
-                                <p>August 2022 - Present</p>
+                                <p><b>August 2022 - Present</b></p>
                             </div>
                         </div>
                     </div>
@@ -288,15 +289,16 @@
                 <!-- Bachelor's Section -->
                 <div class="panel panel-default" style="margin-top: 20px;">
                     <div class="panel-heading" style="background-color: #007BFF; color: white; padding: 10px;">
-                        <h4 class="panel-title"><b>Bachelor of Science in Computer Science and Engineering</b></h4>
+                        <h4 class="panel-title">Bachelor of Science in Computer Science and Engineering</h4>
                     </div>
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-md-6">
-                                <p>Department of Computer Science and Engineering at Rajshahi University of Engineering and Technology</p>
+                                <p><a href="https://www.cse.ruet.ac.bd/" target="_blank" rel="noopener noreferrer">Department of Computer Science and Engineering</a></p>
+                                <p style="margin-top: -10px;"><b><a href="https://www.ruet.ac.bd/" target="_blank" rel="noopener noreferrer">Rajshahi University of Engineering and Technology</a></b></p>
                             </div>
                             <div class="col-md-6">
-                                <p>January 2012 - October 2016</p>
+                                <p><b>January 2012 - October 2016</b></p>
                             </div>
                         </div>
                     </div>
@@ -305,6 +307,9 @@
         </div>
     </div>
 </section>
+
+
+
 
 
 
