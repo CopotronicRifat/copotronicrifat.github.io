@@ -383,7 +383,7 @@
                                 <div class="col-md-10">
                                     <div class="timeline-label">
                                         <h2>Lecturer <span>October 2018 - July 2022</span></h2>
-                                        <p><a href="https://uap-bd.edu/" target="_blank" rel="noopener noreferrer">University of Asia Pacific</a></p>
+                                        <p><a href="https://uap-bd.edu/" target="_blank" rel="noopener noreferrer"><b>University of Asia Pacific</b></a></p>
                                         <b>Theory Courses:</b>
                                         <ul>
                                             <li><b>Machine Learning</b> (Spring 2020, Fall 2020)</li>
@@ -417,7 +417,7 @@
                                 <div class="col-md-10">
                                     <div class="timeline-label">
                                         <h2>Lecturer <span>February 2017 - October 2018</span></h2>
-                                        <p><a href="https://uttarauniversity.edu.bd/" target="_blank" rel="noopener noreferrer">Uttara University</a></p>
+                                        <p><a href="https://uttarauniversity.edu.bd/" target="_blank" rel="noopener noreferrer"><b>Uttara University</b></a></p>
                                         <b>Theory Courses:</b>
                                         <ul>
                                             <li><b>Programming Language and Application II (C++)</b> (Fall 2017)</li>
