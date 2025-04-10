@@ -466,6 +466,13 @@
 
 
 <li>
+  <b>Estimating Influenza Cases using Numerical Methods and Machine Learning (2024).</b><br>
+  Compared traditional SVIR-based numerical solvers (Midpoint, RK4) with deep learning models (LSTM, CNN, FTA-LSTM) and Random Forest for predicting H1N1 outbreaks; Random Forest with direct forecast achieved the best accuracy on real-world data.<br>
+  <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Numerical-Methods-for-Estimating-Influenza-Cases" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+</li>
+
+
+<li>
   <b>Adaptive Blockchain with Dynamic Difficulty and SJF Prioritization (2024).</b><br>
   Designed a blockchain simulation with dynamic difficulty adjustment and Shortest Job First (SJF) prioritization using a minimum priority queue to improve throughput, reduce queue length, and lower waiting time under high transaction loads; developed as part of OSU’s CS5113 course.<br>
   <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Adaptive-Blockchain" target="_blank" rel="noopener noreferrer">[GitHub]</a>
