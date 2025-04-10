@@ -463,6 +463,29 @@
 					</div>
 
 <ul>
+<li>
+  <b>Sentiment Analysis on Cloud Platforms (2022).</b><br>
+  Developed and compared sentiment analysis pipelines across AWS Comprehend, Google Cloud NLP, and IBM Watson to evaluate API-based NLP sentiment classification on real-world datasets.<br>
+  <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Sentiment-Analysis-on-Cloud-Platforms" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+</li>
+
+
+<li>
+  <b>GO-CART – 3D Unity Game (2021).</b><br>
+  Designed a Unity-based 3D racing game with smooth player movement (W/A/S/D), third-person camera tracking, and physics-based controls. The game features real-time scoring, collision detection, and a game over system triggered on crash or completion.<br>
+  <a style="text-decoration:none" href="https://github.com/CopotronicRifat/GO-CART-UNITY" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+</li>
+
+
+
+<li>
+  <b>Breast Cancer Detection using Deep Learning (2021).</b><br>
+  Built multiple CNN-based models including Inception, VGG16, MobileNet, and Transformers to detect Invasive Ductal Carcinoma (IDC) in histopathology images; evaluated on Kaggle's IDC dataset.<br>
+  <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Breast-Cancer-Detection-ML-Project" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+</li>
+
+
+
    <li>
   <b>Image Embedding with Classification by Deep Neural Networks (2021).</b><br>
   Developed a deep learning pipeline using Xception to extract and visualize image embeddings for classification tasks. Includes TensorBoard-based 2D/3D demo.<br>
@@ -494,7 +517,12 @@
 </li>
 
     
-    <li><b>Performance Analysis of Text classification in Natural Language Processing with Supervised Machine Learning Algorithms.</b> </br> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Text-Classification-using-Supervised-Learning-Algorithms" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/7860233/" target="_blank" rel="noopener noreferrer">[Paper Link]</a></li>
+   <li>
+  <b>Performance Analysis of Text Classification in NLP with Supervised Machine Learning Algorithms (2016).</b><br>
+  Evaluated various supervised models including ANN with Backpropagation for classifying labeled text datasets; conducted as undergraduate thesis work.<br>
+  <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Text-Classification-using-Supervised-Learning-Algorithms" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+  <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/7860233/" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
+</li>
 
 </ul>
 
