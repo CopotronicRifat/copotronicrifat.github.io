@@ -463,6 +463,15 @@
 					</div>
 
 <ul>
+
+
+<li>
+  <b>Adaptive Blockchain with Dynamic Difficulty and SJF Prioritization (2024).</b><br>
+  Designed a blockchain simulation with dynamic difficulty adjustment and Shortest Job First (SJF) prioritization using a minimum priority queue to improve throughput, reduce queue length, and lower waiting time under high transaction loads; developed as part of OSU’s CS5113 course.<br>
+  <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Adaptive-Blockchain" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+</li>
+
+
 <li>
   <b>Sentiment Analysis on Cloud Platforms (2022).</b><br>
   Developed and compared sentiment analysis pipelines across AWS Comprehend, Google Cloud NLP, and IBM Watson to evaluate API-based NLP sentiment classification on real-world datasets.<br>
