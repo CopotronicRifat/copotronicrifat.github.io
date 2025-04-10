@@ -458,21 +458,40 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<span class="heading-meta">My Works</span>
-							<h2 class="colorlib-heading animate-box">RESEARCH DOCUMENTATION</h2>
+							<h2 class="colorlib-heading animate-box">RESEARCH AND PROJECT DOCUMENTATION</h2>
 						</div>
 					</div>
-					<b><i>(Most Recent First)</i></b>
+
 <ul>
-    <li><b>Image Embedding with Classification by Deep Neural Networks.</b> </br> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Embedding" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://dl.acm.org/doi/abs/10.1145/3542954.3543021" target="_blank" rel="noopener noreferrer">[Paper Link]</a></li>
+   <li>
+  <b>Image Embedding with Classification by Deep Neural Networks (2021).</b><br>
+  Developed a deep learning pipeline using Xception to extract and visualize image embeddings for classification tasks. Includes TensorBoard-based 2D/3D demo.<br>
+  <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Embedding" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+  <a style="text-decoration:none" href="https://dl.acm.org/doi/abs/10.1145/3542954.3543021" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
+</li>
 
     
-    <li><b>Data Augmentation with Generative Adversarial Networks.</b> </br> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/ADA-GAN" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://www.youtube.com/watch?v=h8uP7wkWzSQ&ab_channel=SMRafiuddinRifat" target="_blank" rel="noopener noreferrer">[Demo]</a></li>
+   <li>
+  <b>Data Augmentation with Generative Adversarial Networks (2022).</b><br>
+  Implements adaptive discriminator augmentation to stabilize GAN training on limited datasets, supporting Bangla character/numeral synthesis and multiple architectures. Includes demo visualization.<br>
+  <a style="text-decoration:none" href="https://github.com/CopotronicRifat/ADA-GAN" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+  <a style="text-decoration:none" href="https://www.youtube.com/watch?v=h8uP7wkWzSQ&ab_channel=SMRafiuddinRifat" target="_blank" rel="noopener noreferrer">[Demo]</a>
+</li>
 
     
-    <li><b>Protein Structure Prediction.</b> </br> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Protein-Structure-Prediction-using-PyRosetta" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+  <li>
+  <b>Protein Structure Prediction using PyRosetta (2020).</b><br>
+  Developed molecular modeling pipelines using PyRosetta for protein structure prediction and refinement as part of my graduate thesis.<br>
+  <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Protein-Structure-Prediction-using-PyRosetta" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+</li>
 
     
-    <li><b>Phylogenetic Tree Construction with Genetic Algorithms.</b> </br> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Phylogenetic-Tree-Analysis-with-Genetic-Algorithms" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/9068849" target="_blank" rel="noopener noreferrer">[Paper Link]</a></li>
+ <li>
+  <b>Phylogenetic Tree Construction with Genetic Algorithms (2019).</b><br>
+  Applied genetic algorithms for evolutionary tree estimation using gene sequencing data; includes modular support for multiple genome datasets from NCBI.<br>
+  <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Phylogenetic-Tree-Analysis-with-Genetic-Algorithms" target="_blank" rel="noopener noreferrer">[GitHub]</a>
+  <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/9068849" target="_blank" rel="noopener noreferrer">[Paper Link]</a>
+</li>
 
     
     <li><b>Performance Analysis of Text classification in Natural Language Processing with Supervised Machine Learning Algorithms.</b> </br> <a style="text-decoration:none" href="https://github.com/CopotronicRifat/Text-Classification-using-Supervised-Learning-Algorithms" target="_blank" rel="noopener noreferrer">[GitHub]</a> <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/7860233/" target="_blank" rel="noopener noreferrer">[Paper Link]</a></li>
