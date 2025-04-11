@@ -97,6 +97,12 @@
   color: white;
 }
 
+.fa-discord {
+  background: #5865F2;
+  color: white;
+}
+
+
 
 </style>
 	<title>Rifat Rafiuddin</title>
@@ -214,7 +220,7 @@
 </p>
 
 <p>
-  My research interests span <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, <strong>Natural Language Processing</strong>, and <strong>Pattern Recognition</strong>, with a current emphasis on explainability and multimodal learning. I am passionate about advancing the state of AI through academic research and aim to pursue a career in academia, combining rigorous research with dedicated teaching and mentorship.
+  My research interests span <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, <strong>Natural Language Processing</strong>, and <strong>Pattern Recognition</strong>, with a current emphasis on explainability and multimodal learning. I am passionate about advancing the state of AI through academic research and aim to pursue a career in academia, combining impactful research with dedicated teaching and mentorship.
 </p>
 
 
@@ -680,6 +686,8 @@
 							<a href="https://www.instagram.com/where.is.rifat/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram"></a>
 							<a href="https://www.pinterest.com/CopotronicRifat/" target="_blank" rel="noopener noreferrer" class="fa fa-pinterest"></a>
 							<a href="https://www.snapchat.com/add/copotronicrifat" target="_blank" rel="noopener noreferrer" class="fa fa-snapchat-ghost"></a>
+							<a href="https://discord.com/users/copotronicrifat" target="_blank" rel="noopener noreferrer" class="fab fa-discord" style="background:#5865F2; color:white;"></a>
+
 							<a href="https://join.skype.com/invite/xND7SwF1Ir8t" target="_blank" rel="noopener noreferrer" class="fa fa-skype"></a>
 							<a href="https://www.flickr.com/photos/87423316@N04/" target="_blank" rel="noopener noreferrer" class="fa fa-flickr"></a>
 							<a href="https://www.reddit.com/user/CopotronicRifat" target="_blank" rel="noopener noreferrer" class="fa fa-reddit"></a>
