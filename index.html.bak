@@ -391,12 +391,17 @@
                     </ul>
 
                     <h2>Graduate Research Assistant <span>May 2023 - August 2023, May 2025 - August 2025</span></h2>
-                    <p>Served as a Graduate Research Assistant within the same department, contributing to research in Computer Science under faculty supervision during the specified summer terms.</p>
+                    <ul>
+                        <li>Conducted research under the supervision of Dr. Atriya Sen in the <b>rAIson Lab</b> on causal sentiment reasoning in Twitter conversations.</li>
+                        <li>Developed a novel <b>Time-aware Graph Neural Network (TGNN)</b> to predict sentiment shifts in conversation trees.</li>
+                        <li>Implemented a causality-enforcing penalty mechanism to improve prediction accuracy and interpretability.</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 </article>
+
 
 
                     <!-- Lecturer at UAP -->
