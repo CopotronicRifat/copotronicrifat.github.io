@@ -151,8 +151,6 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
-	</head>
 	<style id="notion-mono-override">
   :root{
     --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -182,6 +180,8 @@
   a { text-decoration: none; }
   a:hover { text-decoration: underline; }
 </style>
+	</head>
+
 
 	<body>
 	<div id="colorlib-page">
@@ -191,20 +191,22 @@
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/PRO.jpg);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Rifat Rafiuddin</a></h1>
-				<span class="position"><a href="#">Ph.D. Student</a> at Oklahoma State University</span>
+<span class="position"><a href="#">𝗣𝗵.𝗗. 𝗦𝘁𝘂𝗱𝗲𝗻𝘁</a> 𝗮𝘁 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆</span>
+
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
 					<ul>
 						
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="news">News</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="research">Projects and Research</a></li>
-						<li><a href="#" data-nav-section="publication">Publication</a></li>
-						<li><a href="#" data-nav-section="misc">Misc Links</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
+<li><a href="#" data-nav-section="about">𝗔𝗯𝗼𝘂𝘁</a></li>
+<li><a href="#" data-nav-section="news">𝗡𝗲𝘄𝘀</a></li>
+<li><a href="#" data-nav-section="education">𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻</a></li>
+<li><a href="#" data-nav-section="experience">𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲</a></li>
+<li><a href="#" data-nav-section="research">𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝗮𝗻𝗱 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵</a></li>
+<li><a href="#" data-nav-section="publication">𝗣𝘂𝗯𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻</a></li>
+<li><a href="#" data-nav-section="misc">𝗠𝗶𝘀𝗰 𝗟𝗶𝗻𝗸𝘀</a></li>
+<li><a href="#" data-nav-section="contact">𝗖𝗼𝗻𝘁𝗮𝗰𝘁</a></li>
+
 					</ul>
 				</div>
 			</nav>
