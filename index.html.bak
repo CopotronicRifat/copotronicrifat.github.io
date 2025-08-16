@@ -132,7 +132,23 @@
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/PRO.jpg);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Rifat Rafiuddin</a></h1>
-<span class="position"><a href="#">𝗣𝗵.𝗗. 𝗦𝘁𝘂𝗱𝗲𝗻𝘁</a> 𝗮𝘁 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆</span>
+<span class="position">
+  <a href="#">𝗣𝗵.𝗗. 𝗦𝘁𝘂𝗱𝗲𝗻𝘁</a><br>
+  𝗮𝘁 𝗢𝗸𝗹𝗮𝗵𝗼𝗺𝗮 𝗦𝘁𝗮𝘁𝗲 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝘆
+</span>
+
+<style>
+.position {
+  display: inline-block;
+  font-size: 20px;   /* make it larger */
+  line-height: 1.5;  /* spacing between the two lines */
+}
+.position a {
+  text-decoration: none;
+  color: inherit;    /* keep same color */
+}
+</style>
+
 
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
