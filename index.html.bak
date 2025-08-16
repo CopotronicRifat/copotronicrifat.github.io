@@ -13,11 +13,17 @@
 
 
 
-        /* Customize math-like rendering */
-        .latex {
-            font-family: 'Latin Modern Roman', 'Computer Modern', serif;
-            font-style: italic;
-        }
+.fa, .fa:before {
+  font-family: FontAwesome !important;
+  speak: none;
+}
+
+/* Customize math-like rendering */
+.latex {
+    font-family: 'Latin Modern Roman', 'Computer Modern', serif;
+    font-style: italic;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -151,6 +157,8 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<style id="notion-mono-override">
   :root{
     --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -169,7 +177,7 @@
 
   /* Make common components inherit the mono font (theme sets their own) */
   h1, h2, h3, h4, h5, h6,
-  p, li, a, span, small,
+  p, li, span, small,
   .navbar, .panel, .panel-title, .panel-body,
   .timeline-label, .colorlib-heading, .heading-meta,
   .btn, input, textarea, label {
@@ -704,7 +712,8 @@
 									<i class="icon-globe-outline"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="#">where.is.rifat@gmail.com</a></p>
+								<p><a href="#">𝘄𝗵𝗲𝗿𝗲.𝗶𝘀.𝗿𝗶𝗳𝗮𝘁@𝗴𝗺𝗮𝗶𝗹.𝗰𝗼𝗺</a></p>
+
 								</div>
 							</div>
 
