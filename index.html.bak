@@ -164,6 +164,13 @@
 <li><a href="#" data-nav-section="misc">𝗠𝗶𝘀𝗰 𝗟𝗶𝗻𝗸𝘀</a></li>
 <li><a href="#" data-nav-section="contact">𝗖𝗼𝗻𝘁𝗮𝗰𝘁</a></li>
 
+<style>
+nav ul li a {
+  font-size: 18px;   /* adjust as needed */
+}
+</style>
+
+
 					</ul>
 				</div>
 			</nav>
