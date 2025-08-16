@@ -210,19 +210,25 @@
 <style>
 .link-buttons {
   display: flex;
-  flex-wrap: wrap;          /* allow wrapping */
-  justify-content: center;  /* evenly center items */
-  gap: 10px 25px;           /* spacing between items */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 25px;
   margin: 15px 0;
 }
 
 .link-buttons a {
   font-weight: bold;
   text-decoration: none;
-  color: inherit;
-  white-space: nowrap;      /* prevent emoji+label breaking */
+  color: #0066cc;          /* blue link color */
+  white-space: nowrap;
+}
+
+.link-buttons a:hover {
+  text-decoration: underline;
+  color: #004999;          /* darker blue on hover */
 }
 </style>
+
 
 
 
