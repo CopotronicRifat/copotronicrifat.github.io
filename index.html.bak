@@ -166,7 +166,7 @@
 
 <style>
 nav ul li a {
-  font-size: 18px;   /* adjust as needed */
+  font-size: 15px;   /* adjust as needed */
 }
 </style>
 
