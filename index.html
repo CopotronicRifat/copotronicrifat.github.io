@@ -11,13 +11,7 @@
 <style>
 
 
-body {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-size: 15px;
-    line-height: 1.6;
-    background: #fafafa;  /* light Notion-like background */
-    color: #2d2d2d;
-}
+
 
         /* Customize math-like rendering */
         .latex {
@@ -157,8 +151,38 @@ body {
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<style id="notion-mono-override">
+  :root{
+    --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bg: #fafafa;
+    --text: #2d2d2d;
+  }
 
+  /* Force the mono look site-wide */
+  html, body { 
+    font-family: var(--mono) !important; 
+    background: var(--bg); 
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+
+  /* Make common components inherit the mono font (theme sets their own) */
+  h1, h2, h3, h4, h5, h6,
+  p, li, a, span, small,
+  .navbar, .panel, .panel-title, .panel-body,
+  .timeline-label, .colorlib-heading, .heading-meta,
+  .btn, input, textarea, label {
+    font-family: inherit !important;
+  }
+
+  /* Optional: cleaner links */
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
 	</head>
+
+
 	<body>
 	<div id="colorlib-page">
 		<div class="container-wrap">
