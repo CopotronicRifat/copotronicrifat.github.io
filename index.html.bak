@@ -111,8 +111,7 @@
       <a href="#" class="social-icon threads"       aria-label="Threads"       title="Threads"><i class="fa-brands fa-threads"></i></a>
       <a href="#" class="social-icon spotify"       aria-label="Spotify"       title="Spotify"><i class="fab fa-spotify"></i></a>
     </div>
-  </body>
-</html>
+
 
 
 
@@ -842,11 +841,6 @@ nav ul li a {
               <a href="https://www.threads.net/@where.is.rifat" target="_blank" rel="noopener noreferrer" class="social-icon threads"><i class="fa-brands fa-threads"></i></a>
               <a href="https://open.spotify.com/user/2kwdmvkvy003rfnmp181qlpor" target="_blank" rel="noopener noreferrer" class="social-icon spotify"><i class="fab fa-spotify"></i></a>
 
-
-                <!-- Kaggle inline SVG (since FA lacks a Kaggle icon) -->
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M4 4h3v6.6L14.2 4H18l-8.1 7.8L18.5 20h-4.1L7 12.9V20H4V4z"/>
-                </svg>
               </a>
             </div>
             <!-- /social-container -->
