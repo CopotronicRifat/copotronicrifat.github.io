@@ -11,7 +11,7 @@
     <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <title>Social Grid</title>
+
 
     <style>
       :root {
@@ -54,27 +54,34 @@
       .social-icon:hover { opacity: 0.85; transform: translateY(-1px); }
       .social-icon:focus { outline: 2px solid #222; outline-offset: 2px; }
 
-      /* Brand colors */
-      .facebook      { background:#3b5998; }
-      .twitter       { background:#55acee; }          /* legacy Twitter blue */
-      .linkedin      { background:#0077b5; }
-      .youtube       { background:#ff0000; }
-      .instagram     { background:#e4405f; }
-      .pinterest     { background:#bd081c; }
-      .tumblr        { background:#35465c; }
-      .tiktok        { background:#010101; }
-      .discord       { background:#5865F2; }
-      .reddit        { background:#ff4500; }
-      .twitch        { background:#6441a5; }
-      .goodreads     { background:#553b08; }
-      .bluesky       { background:#0285FF; }
-      .mastodon      { background:#2b90d9; }
-      .github        { background:#333; }
-      .quora         { background:#a82400; }
-      .stackoverflow { background:#f48024; }
-      .telegram      { background:#0088cc; }
-      .threads       { background:#000; }
-      .spotify       { background:#1db954; }
+.facebook      { background:#3b5998; }
+.twitter       { background:#55acee; }
+.linkedin      { background:#0077b5; }
+.youtube       { background:#ff0000; }
+.instagram     { background:#e4405f; }
+.pinterest     { background:#bd081c; }
+.snapchat      { background:#fffc00; color:#000; }
+.skype         { background:#00aff0; }
+.flickr        { background:#ff0084; }
+.reddit        { background:#ff4500; }
+.soundcloud    { background:#ff5500; }
+.rss           { background:#ff6600; }
+.discord       { background:#5865F2; }
+.twitch        { background:#6441a5; }
+.tumblr        { background:#35465c; }
+.tiktok        { background:#010101; }
+.goodreads     { background:#553b08; }
+.bluesky       { background:#0285FF; }
+.mastodon      { background:#2b90d9; }
+.github        { background:#333; }
+.quora         { background:#a82400; }
+.stackoverflow { background:#f48024; }
+.telegram      { background:#0088cc; }
+.threads       { background:#000; }
+.spotify       { background:#1db954; }
+.steam         { background:#171a21; }
+.kaggle        { background:#20beff; }
+
     </style>
   </head>
 
@@ -835,9 +842,7 @@ nav ul li a {
               <a href="https://www.threads.net/@where.is.rifat" target="_blank" rel="noopener noreferrer" class="social-icon threads"><i class="fa-brands fa-threads"></i></a>
               <a href="https://open.spotify.com/user/2kwdmvkvy003rfnmp181qlpor" target="_blank" rel="noopener noreferrer" class="social-icon spotify"><i class="fab fa-spotify"></i></a>
 
-              <!-- EXTRA to reach 25 -->
-              <a href="https://steamcommunity.com/id/CopotronicRifat/" target="_blank" rel="noopener noreferrer" class="social-icon steam"><i class="fab fa-steam"></i></a>
-              <a href="https://www.kaggle.com/copotronicrifat" target="_blank" rel="noopener noreferrer" class="social-icon kaggle" aria-label="Kaggle">
+
                 <!-- Kaggle inline SVG (since FA lacks a Kaggle icon) -->
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M4 4h3v6.6L14.2 4H18l-8.1 7.8L18.5 20h-4.1L7 12.9V20H4V4z"/>
