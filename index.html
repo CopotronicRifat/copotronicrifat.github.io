@@ -1,60 +1,113 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Fonts & libs -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Social Grid</title>
 
     <style>
-      /* Ensure FA icons actually use the FA font (important when overriding fonts globally) */
-      .fa, .fa:before {
-        font-family: FontAwesome !important;
-        speak: none;
+      :root {
+        --icon-size: 60px;
+        --icon-gap: 15px;
       }
 
-      /* Customize math-like rendering */
-      .latex {
-        font-family: 'Latin Modern Roman', 'Computer Modern', serif;
-        font-style: italic;
+      body {
+        font-family: 'Alegreya', serif;
+        margin: 0;
+        padding: 24px;
+        background: #fafafa;
       }
 
-      /* Social icon button base */
-      .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 70px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
+      /* GRID */
+      .social-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(var(--icon-size), 1fr)); /* Responsive */
+        /* For a fixed 5x5 grid, replace the above line with: grid-template-columns: repeat(5, 1fr); */
+        gap: var(--icon-gap);
+        justify-items: center;
+        align-items: center;
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
+      /* Social button base */
+      .social-icon {
         display: inline-block;
+        width: var(--icon-size);
+        height: var(--icon-size);
+        line-height: var(--icon-size);
+        text-align: center;
+        border-radius: 50%;
+        font-size: 28px;
+        color: #fff;
+        transition: opacity 0.2s ease, transform 0.1s ease;
+        text-decoration: none;
       }
-      .fa:hover { opacity: 0.8; }
+      .social-icon:hover { opacity: 0.85; transform: translateY(-1px); }
+      .social-icon:focus { outline: 2px solid #222; outline-offset: 2px; }
 
-      /* Brand colors (FA 4.7 icon glyphs) */
-      .fa-facebook   { background: #3B5998; color:#fff; }
-      .fa-twitter    { background: #55ACEE; color:#fff; }
-      .fa-linkedin   { background: #007bb5; color:#fff; }
-      .fa-youtube    { background: #bb0000; color:#fff; }
-      .fa-instagram  { background: #125688; color:#fff; }
-      .fa-pinterest  { background: #cb2027; color:#fff; }
-      .fa-snapchat-ghost { background:#fffc00; color:#fff; text-shadow:-1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000; }
-      .fa-skype      { background: #00aff0; color:#fff; }
-      .fa-flickr     { background: #f40083; color:#fff; }
-      .fa-soundcloud { background: #ff5500; color:#fff; }   /* <- fixed */
-      .fa-reddit     { background: #ff5700; color:#fff; }
-      .fa-stumbleupon{ background: #eb4924; color:#fff; }
-      .fa-rss        { background: #ff6600; color:#fff; }
-
-      /* NOTE: Font Awesome 4.7 does NOT include a Discord glyph.
-         Keeping this class only for background color; no icon will show unless you upgrade FA. */
-      .fa-discord    { background: #5865F2; color:#fff; }
+      /* Brand colors */
+      .facebook      { background:#3b5998; }
+      .twitter       { background:#55acee; }          /* legacy Twitter blue */
+      .linkedin      { background:#0077b5; }
+      .youtube       { background:#ff0000; }
+      .instagram     { background:#e4405f; }
+      .pinterest     { background:#bd081c; }
+      .tumblr        { background:#35465c; }
+      .tiktok        { background:#010101; }
+      .discord       { background:#5865F2; }
+      .reddit        { background:#ff4500; }
+      .twitch        { background:#6441a5; }
+      .goodreads     { background:#553b08; }
+      .bluesky       { background:#0285FF; }
+      .mastodon      { background:#2b90d9; }
+      .github        { background:#333; }
+      .quora         { background:#a82400; }
+      .stackoverflow { background:#f48024; }
+      .telegram      { background:#0088cc; }
+      .threads       { background:#000; }
+      .spotify       { background:#1db954; }
     </style>
+  </head>
+
+  <body>
+    <div class="social-container" aria-label="Social links">
+      <a href="#" class="social-icon facebook"      aria-label="Facebook"      title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon twitter"       aria-label="X (Twitter)"   title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+      <a href="#" class="social-icon linkedin"      aria-label="LinkedIn"      title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" class="social-icon youtube"       aria-label="YouTube"       title="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="#" class="social-icon instagram"     aria-label="Instagram"     title="Instagram"><i class="fab fa-instagram"></i></a>
+
+      <a href="#" class="social-icon pinterest"     aria-label="Pinterest"     title="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+      <a href="#" class="social-icon tumblr"        aria-label="Tumblr"        title="Tumblr"><i class="fab fa-tumblr"></i></a>
+      <a href="#" class="social-icon tiktok"        aria-label="TikTok"        title="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="#" class="social-icon discord"       aria-label="Discord"       title="Discord"><i class="fab fa-discord"></i></a>
+      <a href="#" class="social-icon reddit"        aria-label="Reddit"        title="Reddit"><i class="fab fa-reddit-alien"></i></a>
+
+      <a href="#" class="social-icon twitch"        aria-label="Twitch"        title="Twitch"><i class="fab fa-twitch"></i></a>
+      <a href="#" class="social-icon goodreads"     aria-label="Goodreads"     title="Goodreads"><i class="fab fa-goodreads-g"></i></a>
+      <a href="#" class="social-icon bluesky"       aria-label="Bluesky"       title="Bluesky"><i class="fa-solid fa-cloud"></i></a> <!-- placeholder -->
+      <a href="#" class="social-icon mastodon"      aria-label="Mastodon"      title="Mastodon"><i class="fab fa-mastodon"></i></a>
+      <a href="#" class="social-icon github"        aria-label="GitHub"        title="GitHub"><i class="fab fa-github"></i></a>
+
+      <a href="#" class="social-icon quora"         aria-label="Quora"         title="Quora"><i class="fab fa-quora"></i></a>
+      <a href="#" class="social-icon stackoverflow" aria-label="Stack Overflow" title="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
+      <a href="#" class="social-icon telegram"      aria-label="Telegram"      title="Telegram"><i class="fab fa-telegram"></i></a>
+      <a href="#" class="social-icon threads"       aria-label="Threads"       title="Threads"><i class="fa-brands fa-threads"></i></a>
+      <a href="#" class="social-icon spotify"       aria-label="Spotify"       title="Spotify"><i class="fab fa-spotify"></i></a>
+    </div>
+  </body>
+</html>
+
+
 
     <title>Rifat Rafiuddin</title>
 
@@ -703,97 +756,106 @@ nav ul li a {
 
 
 
-			</section>
+</section>
 
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-								<p><a href="#">𝘄𝗵𝗲𝗿𝗲.𝗶𝘀.𝗿𝗶𝗳𝗮𝘁@𝗴𝗺𝗮𝗶𝗹.𝗰𝗼𝗺</a></p>
+<section class="colorlib-contact" data-section="contact">
+  <div class="colorlib-narrow-content">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+        <span class="heading-meta">Get in Touch</span>
+        <h2 class="colorlib-heading">Contact</h2>
+      </div>
+    </div>
 
-								</div>
-							</div>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+          <div class="colorlib-icon"><i class="icon-globe-outline"></i></div>
+          <div class="colorlib-text">
+            <p><a href="mailto:where.is.rifat@gmail.com">𝘄𝗵𝗲𝗿𝗲.𝗶𝘀.𝗿𝗶𝗳𝗮𝘁@𝗴𝗺𝗮𝗶𝗹.𝗰𝗼𝗺</a></p>
+          </div>
+        </div>
 
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									716 N Husband Street, Stillwater, Oklahoma, USA
-								</div>
-							</div>
+        <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+          <div class="colorlib-icon"><i class="icon-map"></i></div>
+          <div class="colorlib-text">716 N Husband Street, Stillwater, Oklahoma, USA</div>
+        </div>
 
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="tel://">+1 (405) 989 6419</a></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-										</div>
-											
-									</form>
-									<a href="https://www.facebook.com/where.is.rifat/" target="_blank" rel="noopener noreferrer" class="fa fa-facebook"></a>
-									<a href="https://twitter.com/CopotronicRifat" target="_blank" rel="noopener noreferrer" class="fa fa-twitter"></a>
+        <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+          <div class="colorlib-icon"><i class="icon-phone"></i></div>
+          <div class="colorlib-text">
+            <p><a href="tel:+14059896419">+1 (405) 989 6419</a></p>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-md-7 col-md-push-1">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+            <form action="">
+              <div class="form-group"><input type="text" class="form-control" placeholder="Name"></div>
+              <div class="form-group"><input type="text" class="form-control" placeholder="Email"></div>
+              <div class="form-group"><input type="text" class="form-control" placeholder="Subject"></div>
+              <div class="form-group"><textarea id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea></div>
+              <div class="form-group"><input type="submit" class="btn btn-primary btn-send-message" value="Send Message"></div>
+            </form>
 
+            <!-- 5x5 SOCIAL GRID (25 icons) -->
+            <div class="social-container">
+              <a href="https://www.facebook.com/where.is.rifat/" target="_blank" rel="noopener noreferrer" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/CopotronicRifat" target="_blank" rel="noopener noreferrer" class="social-icon twitter"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/copotronicrifat/" target="_blank" rel="noopener noreferrer" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.youtube.com/channel/UCl-SXfiDqNiWHTHufKgIlHg" target="_blank" rel="noopener noreferrer" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.instagram.com/where.is.rifat/" target="_blank" rel="noopener noreferrer" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
 
-							<a href="https://www.linkedin.com/in/copotronicrifat/" target="_blank" rel="noopener noreferrer" class="fa fa-linkedin"></a>
-							<a href="https://www.youtube.com/channel/UCl-SXfiDqNiWHTHufKgIlHg" target="_blank" rel="noopener noreferrer" class="fa fa-youtube"></a>
-							<a href="https://www.instagram.com/where.is.rifat/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram"></a>
-							<a href="https://www.pinterest.com/CopotronicRifat/" target="_blank" rel="noopener noreferrer" class="fa fa-pinterest"></a>
-							<a href="https://www.snapchat.com/add/copotronicrifat" target="_blank" rel="noopener noreferrer" class="fa fa-snapchat-ghost"></a>
-							
-							<a href="https://join.skype.com/invite/xND7SwF1Ir8t" target="_blank" rel="noopener noreferrer" class="fa fa-skype"></a>
-							<a href="https://www.flickr.com/photos/87423316@N04/" target="_blank" rel="noopener noreferrer" class="fa fa-flickr"></a>
-							<a href="https://www.reddit.com/user/CopotronicRifat" target="_blank" rel="noopener noreferrer" class="fa fa-reddit"></a>
-						<a href="https://soundcloud.com/copotronicrifat" target="_blank" rel="noopener noreferrer" class="fa fa-soundcloud"></a>
-							<a href="https://copotronicrifat.wordpress.com/" target="_blank" rel="noopener noreferrer" class="fa fa-rss"></a>
-								</div>
-								
-								
-							</div>
-							
-						</div>
-					</div>
+              <a href="https://www.pinterest.com/CopotronicRifat/" target="_blank" rel="noopener noreferrer" class="social-icon pinterest"><i class="fab fa-pinterest-p"></i></a>
+              <a href="https://www.snapchat.com/add/copotronicrifat" target="_blank" rel="noopener noreferrer" class="social-icon snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+              <a href="https://join.skype.com/invite/xND7SwF1Ir8t" target="_blank" rel="noopener noreferrer" class="social-icon skype"><i class="fab fa-skype"></i></a>
+              <a href="https://www.flickr.com/photos/87423316@N04/" target="_blank" rel="noopener noreferrer" class="social-icon flickr"><i class="fab fa-flickr"></i></a>
+              <a href="https://www.reddit.com/user/CopotronicRifat" target="_blank" rel="noopener noreferrer" class="social-icon reddit"><i class="fab fa-reddit-alien"></i></a>
 
-				</div>
-			</section>
+              <a href="https://soundcloud.com/copotronicrifat" target="_blank" rel="noopener noreferrer" class="social-icon soundcloud"><i class="fab fa-soundcloud"></i></a>
+              <a href="https://copotronicrifat.wordpress.com/" target="_blank" rel="noopener noreferrer" class="social-icon rss"><i class="fa-solid fa-rss"></i></a>
+              <a href="https://discord.gg/YOURINVITE" target="_blank" rel="noopener noreferrer" class="social-icon discord"><i class="fab fa-discord"></i></a>
+              <a href="https://www.twitch.tv/YOURUSERNAME" target="_blank" rel="noopener noreferrer" class="social-icon twitch"><i class="fab fa-twitch"></i></a>
+              <a href="https://www.tumblr.com/copotronicrifat?source=share" target="_blank" rel="noopener noreferrer" class="social-icon tumblr"><i class="fab fa-tumblr"></i></a>
 
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
+              <a href="https://www.tiktok.com/@copotronicrifat?lang=en" target="_blank" rel="noopener noreferrer" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a>
+              <a href="https://www.goodreads.com/user/show/32670729-copotronic-rifat" target="_blank" rel="noopener noreferrer" class="social-icon goodreads"><i class="fab fa-goodreads-g"></i></a>
+              <a href="https://bsky.app/profile/copotronicrifat.bsky.social" target="_blank" rel="noopener noreferrer" class="social-icon bluesky" aria-label="Bluesky">
+                <!-- Bluesky placeholder (cloud) -->
+                <i class="fa-solid fa-cloud"></i>
+              </a>
+              <a href="https://graphics.social/@CopotronicRifat" target="_blank" rel="me noopener noreferrer" class="social-icon mastodon"><i class="fab fa-mastodon"></i></a>
+              <a href="https://github.com/CopotronicRifat" target="_blank" rel="noopener noreferrer" class="social-icon github"><i class="fab fa-github"></i></a>
+
+              <a href="https://www.quora.com/profile/CopotronicRifat" target="_blank" rel="noopener noreferrer" class="social-icon quora"><i class="fab fa-quora"></i></a>
+              <a href="https://stackoverflow.com/users/16211022/copotronicrifat" target="_blank" rel="noopener noreferrer" class="social-icon stackoverflow"><i class="fab fa-stack-overflow"></i></a>
+              <a href="https://t.me/CopotronicRifat" target="_blank" rel="noopener noreferrer" class="social-icon telegram"><i class="fab fa-telegram"></i></a>
+              <a href="https://www.threads.net/@where.is.rifat" target="_blank" rel="noopener noreferrer" class="social-icon threads"><i class="fa-brands fa-threads"></i></a>
+              <a href="https://open.spotify.com/user/2kwdmvkvy003rfnmp181qlpor" target="_blank" rel="noopener noreferrer" class="social-icon spotify"><i class="fab fa-spotify"></i></a>
+
+              <!-- EXTRA to reach 25 -->
+              <a href="https://steamcommunity.com/id/CopotronicRifat/" target="_blank" rel="noopener noreferrer" class="social-icon steam"><i class="fab fa-steam"></i></a>
+              <a href="https://www.kaggle.com/copotronicrifat" target="_blank" rel="noopener noreferrer" class="social-icon kaggle" aria-label="Kaggle">
+                <!-- Kaggle inline SVG (since FA lacks a Kaggle icon) -->
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 4h3v6.6L14.2 4H18l-8.1 7.8L18.5 20h-4.1L7 12.9V20H4V4z"/>
+                </svg>
+              </a>
+            </div>
+            <!-- /social-container -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div><!-- end:colorlib-main -->
+</div><!-- end:container-wrap -->
+</div><!-- end:colorlib-page -->
+
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
