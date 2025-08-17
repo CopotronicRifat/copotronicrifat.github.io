@@ -1,79 +1,112 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Fonts & libs -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700&display=swap" rel="stylesheet">
-    <!-- Upgrade to Font Awesome 6 -->
+    <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
+    <title>Social Grid</title>
+
     <style>
+      :root {
+        --icon-size: 60px;
+        --icon-gap: 15px;
+      }
+
+      body {
+        font-family: 'Alegreya', serif;
+        margin: 0;
+        padding: 24px;
+        background: #fafafa;
+      }
+
+      /* GRID */
+      .social-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(var(--icon-size), 1fr)); /* Responsive */
+        /* For a fixed 5x5 grid, replace the above line with: grid-template-columns: repeat(5, 1fr); */
+        gap: var(--icon-gap);
+        justify-items: center;
+        align-items: center;
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
       /* Social button base */
       .social-icon {
         display: inline-block;
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
-        margin: 5px;
+        width: var(--icon-size);
+        height: var(--icon-size);
+        line-height: var(--icon-size);
         text-align: center;
         border-radius: 50%;
         font-size: 28px;
         color: #fff;
-        transition: opacity 0.3s ease;
+        transition: opacity 0.2s ease, transform 0.1s ease;
+        text-decoration: none;
       }
-      .social-icon:hover { opacity: 0.8; }
+      .social-icon:hover { opacity: 0.85; transform: translateY(-1px); }
+      .social-icon:focus { outline: 2px solid #222; outline-offset: 2px; }
 
       /* Brand colors */
-      .facebook   { background:#3b5998; }
-      .twitter    { background:#55acee; }
-      .linkedin   { background:#0077b5; }
-      .youtube    { background:#ff0000; }
-      .instagram  { background:#e4405f; }
-      .pinterest  { background:#bd081c; }
-      .tumblr     { background:#35465c; }
-      .tiktok     { background:#010101; }
-      .discord    { background:#5865F2; }
-      .reddit     { background:#ff4500; }
-      .twitch     { background:#6441a5; }
-      .goodreads  { background:#553b08; }
-      .bluesky    { background:#0285FF; }
-      .mastodon   { background:#2b90d9; }
-      .github     { background:#333; }
-      .quora      { background:#a82400; }
+      .facebook      { background:#3b5998; }
+      .twitter       { background:#55acee; }          /* legacy Twitter blue */
+      .linkedin      { background:#0077b5; }
+      .youtube       { background:#ff0000; }
+      .instagram     { background:#e4405f; }
+      .pinterest     { background:#bd081c; }
+      .tumblr        { background:#35465c; }
+      .tiktok        { background:#010101; }
+      .discord       { background:#5865F2; }
+      .reddit        { background:#ff4500; }
+      .twitch        { background:#6441a5; }
+      .goodreads     { background:#553b08; }
+      .bluesky       { background:#0285FF; }
+      .mastodon      { background:#2b90d9; }
+      .github        { background:#333; }
+      .quora         { background:#a82400; }
       .stackoverflow { background:#f48024; }
-      .telegram   { background:#0088cc; }
-      .threads    { background:#000; }
-      .spotify    { background:#1db954; }
+      .telegram      { background:#0088cc; }
+      .threads       { background:#000; }
+      .spotify       { background:#1db954; }
     </style>
   </head>
+
   <body>
-    <!-- Example usage -->
-    <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
-    <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
-    <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
-    <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
-    <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
-    <a href="#" class="social-icon pinterest"><i class="fab fa-pinterest-p"></i></a>
-    <a href="#" class="social-icon tumblr"><i class="fab fa-tumblr"></i></a>
-    <a href="#" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a>
-    <a href="#" class="social-icon discord"><i class="fab fa-discord"></i></a>
-    <a href="#" class="social-icon reddit"><i class="fab fa-reddit-alien"></i></a>
-    <a href="#" class="social-icon twitch"><i class="fab fa-twitch"></i></a>
-    <a href="#" class="social-icon goodreads"><i class="fab fa-goodreads-g"></i></a>
-    <a href="#" class="social-icon bluesky"><i class="fa-solid fa-cloud"></i></a> <!-- placeholder -->
-    <a href="#" class="social-icon mastodon"><i class="fab fa-mastodon"></i></a>
-    <a href="#" class="social-icon github"><i class="fab fa-github"></i></a>
-    <a href="#" class="social-icon quora"><i class="fab fa-quora"></i></a>
-    <a href="#" class="social-icon stackoverflow"><i class="fab fa-stack-overflow"></i></a>
-    <a href="#" class="social-icon telegram"><i class="fab fa-telegram"></i></a>
-    <a href="#" class="social-icon threads"><i class="fa-brands fa-threads"></i></a>
-    <a href="#" class="social-icon spotify"><i class="fab fa-spotify"></i></a>
+    <div class="social-container" aria-label="Social links">
+      <a href="#" class="social-icon facebook"      aria-label="Facebook"      title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon twitter"       aria-label="X (Twitter)"   title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+      <a href="#" class="social-icon linkedin"      aria-label="LinkedIn"      title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" class="social-icon youtube"       aria-label="YouTube"       title="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="#" class="social-icon instagram"     aria-label="Instagram"     title="Instagram"><i class="fab fa-instagram"></i></a>
+
+      <a href="#" class="social-icon pinterest"     aria-label="Pinterest"     title="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+      <a href="#" class="social-icon tumblr"        aria-label="Tumblr"        title="Tumblr"><i class="fab fa-tumblr"></i></a>
+      <a href="#" class="social-icon tiktok"        aria-label="TikTok"        title="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="#" class="social-icon discord"       aria-label="Discord"       title="Discord"><i class="fab fa-discord"></i></a>
+      <a href="#" class="social-icon reddit"        aria-label="Reddit"        title="Reddit"><i class="fab fa-reddit-alien"></i></a>
+
+      <a href="#" class="social-icon twitch"        aria-label="Twitch"        title="Twitch"><i class="fab fa-twitch"></i></a>
+      <a href="#" class="social-icon goodreads"     aria-label="Goodreads"     title="Goodreads"><i class="fab fa-goodreads-g"></i></a>
+      <a href="#" class="social-icon bluesky"       aria-label="Bluesky"       title="Bluesky"><i class="fa-solid fa-cloud"></i></a> <!-- placeholder -->
+      <a href="#" class="social-icon mastodon"      aria-label="Mastodon"      title="Mastodon"><i class="fab fa-mastodon"></i></a>
+      <a href="#" class="social-icon github"        aria-label="GitHub"        title="GitHub"><i class="fab fa-github"></i></a>
+
+      <a href="#" class="social-icon quora"         aria-label="Quora"         title="Quora"><i class="fab fa-quora"></i></a>
+      <a href="#" class="social-icon stackoverflow" aria-label="Stack Overflow" title="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
+      <a href="#" class="social-icon telegram"      aria-label="Telegram"      title="Telegram"><i class="fab fa-telegram"></i></a>
+      <a href="#" class="social-icon threads"       aria-label="Threads"       title="Threads"><i class="fa-brands fa-threads"></i></a>
+      <a href="#" class="social-icon spotify"       aria-label="Spotify"       title="Spotify"><i class="fab fa-spotify"></i></a>
+    </div>
   </body>
 </html>
+
 
 
     <title>Rifat Rafiuddin</title>
