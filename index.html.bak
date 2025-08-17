@@ -229,6 +229,8 @@ nav ul li a {
   <a href="https://github.com/CopotronicRifat" target="_blank" rel="noopener noreferrer">🐙 [Github]</a>
   <a href="https://scholar.google.com/citations?user=OqjlcUsAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer">🎓 [Google Scholar]</a>
   <a href="https://dblp.org/pid/326/6287.html" target="_blank" rel="noopener noreferrer">📚 [DBLP]</a>
+  <a href="https://www.semanticscholar.org/author/S-M-Rafiuddin/46961317" target="_blank" rel="noopener noreferrer">📖 [Semantic Scholar]</a>
+  <a href="https://orcid.org/0000-0001-9404-1556" target="_blank" rel="noopener noreferrer">🆔 [ORCID]</a>
   <a href="https://www.linkedin.com/in/copotronicrifat/" target="_blank" rel="noopener noreferrer">💼 [LinkedIn]</a>
   <a href="https://twitter.com/CopotronicRifat" target="_blank" rel="noopener noreferrer">✖️ [X]</a>
   <a href="https://copotronicrifat.wordpress.com/" target="_blank" rel="noopener noreferrer">✍️ [Personal Blog]</a>
@@ -237,24 +239,24 @@ nav ul li a {
 <style>
 .link-buttons {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px 25px;
+  flex-wrap: wrap;        /* allow wrapping */
+  gap: 12px 24px;         /* vertical and horizontal spacing */
+  justify-content: center;/* center items in row */
   margin: 15px 0;
 }
 
 .link-buttons a {
-  font-weight: bold;
+  font-size: 16px;
+  color: blue;            /* make links blue */
   text-decoration: none;
-  color: #0066cc;          /* blue link color */
-  white-space: nowrap;
+  font-weight: bold;
 }
 
 .link-buttons a:hover {
   text-decoration: underline;
-  color: #004999;          /* darker blue on hover */
 }
 </style>
+
 
 
 
