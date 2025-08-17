@@ -169,10 +169,19 @@
 <li><a href="#" data-nav-section="contact">𝗖𝗼𝗻𝘁𝗮𝗰𝘁</a></li>
 
 <style>
+/* Force the nav links to use the site-wide mono font */
+#colorlib-aside .navbar ul li a {
+  font-family: var(--mono) !important;
+  font-size: 15px;      /* your requested size */
+  line-height: 1.4;
+}
+
+/* Optional: if you also have a top nav somewhere else */
 nav ul li a {
-  font-size: 15px;   /* adjust as needed */
+  font-family: var(--mono) !important;
 }
 </style>
+
 
 
 					</ul>
