@@ -354,7 +354,10 @@ nav ul li a {
 <h2 class="colorlib-heading">Recent News</h2>
 
 <ul>
-<li><b>(August 2025)</b> Visited 🍁<b>Canada</b>🍁!</li>
+<li><b>(August 2025)</b> Visited 🍁<b><span style="background: linear-gradient(to right, red, white); -webkit-background-clip: text; color: transparent; -webkit-text-stroke: 0.5px black;">
+  Canada
+</span>
+</b>🍁!</li>
 
 <li><b>(August 2025)</b> Short Paper <b>ACCEPTED</b> at <a style="text-decoration:none" href="https://2025.emnlp.org/" target="_blank" rel="noopener noreferrer"><b>EMNLP 2025</b></a> Findings!</li>
 
