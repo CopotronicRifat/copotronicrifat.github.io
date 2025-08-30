@@ -205,14 +205,15 @@ at <a href="https://go.okstate.edu/" target="_blank" rel="noopener noreferrer"><
 				<div id="navbar" class="collapse">
 					<ul>
 						
-<li><a href="#" data-nav-section="about"><b>About</b></a></li>
-<li><a href="#" data-nav-section="news"><b>News</b></a></li>
-<li><a href="#" data-nav-section="education"><b>Education</b></a></li>
-<li><a href="#" data-nav-section="experience"><b>Experience</b></a></li>
-<li><a href="#" data-nav-section="research"><b>Projects and Research</b></a></li>
-<li><a href="#" data-nav-section="publication"><b>Publication</b></a></li>
-<li><a href="#" data-nav-section="misc"><b>Misc Links</b></a></li>
-<li><a href="#" data-nav-section="contact"><b>Contact</b></a></li>
+<li><a href="#" data-nav-section="about" style="font-size:14px;"><b>About</b></a></li>
+<li><a href="#" data-nav-section="news" style="font-size:14px;"><b>News</b></a></li>
+<li><a href="#" data-nav-section="education" style="font-size:14px;"><b>Education</b></a></li>
+<li><a href="#" data-nav-section="experience" style="font-size:14px;"><b>Experience</b></a></li>
+<li><a href="#" data-nav-section="research" style="font-size:14px;"><b>Projects and Research</b></a></li>
+<li><a href="#" data-nav-section="publication" style="font-size:14px;"><b>Publication</b></a></li>
+<li><a href="#" data-nav-section="misc" style="font-size:14px;"><b>Misc Links</b></a></li>
+<li><a href="#" data-nav-section="contact" style="font-size:14px;"><b>Contact</b></a></li>
+
 
 
 <style>
