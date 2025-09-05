@@ -185,6 +185,21 @@
     ]
   }
   </script>
+  
+  <style>
+  .pub-row{display:flex;gap:16px;align-items:flex-start;margin-bottom:20px}
+  .pub-img img{width:130px;height:130px;object-fit:contain;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+  .pub-cite{flex:1}
+  .pub-actions{margin-top:8px}
+  .btn-badge{display:inline-block;padding:4px 10px;border-radius:6px;font-size:13px;color:#fff;text-decoration:none;margin-right:8px}
+  .btn-coreb{background:#28a745}
+  .btn-paper{background:#007bff}
+  .btn-pres{background:#6f42c1}
+  @media (max-width:768px){
+    .pub-row{flex-direction:column}
+    .pub-img img{width:100%;max-width:260px;height:auto}
+  }
+</style>
   </head>
 
 
@@ -748,15 +763,24 @@ nav ul li a {
         
         <ol type="1">
 <li>
-  <b>Rafiuddin, S.M.</b>, Rakib, M., Kamal, S. and Bagavathi, A., 2024, April. 
-  <a style="text-decoration:none" href="https://link.springer.com/chapter/10.1007/978-981-97-2266-2_12" target="_blank" rel="noopener noreferrer">
-    <b>Exploiting Adaptive Contextual Masking for Aspect-Based Sentiment Analysis.</b>
-  </a> 
-  <i>In Pacific-Asia Conference on Knowledge Discovery and Data Mining (pp. 147-159). Singapore: Springer Nature Singapore.</i> 
-  <b>(Acceptance Rate: 18.47%)</b>
-  <a href="https://portal.core.edu.au/conf-ranks/?search=pakdd&by=all&source=CORE2023&sort=atitle&page=1" target="_blank" rel="noopener noreferrer" style="background-color:#28a745; color:white; padding:4px 10px; border-radius:6px; font-size:13px; text-decoration:none; margin-left:8px;">
-    Core B Conference
-  </a>
+  <div class="pub-row">
+    <div class="pub-img">
+      <img src="PAKDD.png" alt="PAKDD 2024 paper thumbnail" loading="lazy">
+    </div>
+    <div class="pub-cite">
+      <b>Rafiuddin, S.M.</b>, Rakib, M., Kamal, S. and Bagavathi, A., 2024, April. 
+      <a style="text-decoration:none" href="https://link.springer.com/chapter/10.1007/978-981-97-2266-2_12" target="_blank" rel="noopener noreferrer">
+        <b>Exploiting Adaptive Contextual Masking for Aspect-Based Sentiment Analysis.</b>
+      </a> 
+      <i>In Pacific-Asia Conference on Knowledge Discovery and Data Mining (pp. 147-159). Singapore: Springer Nature Singapore.</i> 
+      <b>(Acceptance Rate: 18.47%)</b>
+      <div class="pub-actions">
+        <a href="https://portal.core.edu.au/conf-ranks/?search=pakdd&by=all&source=CORE2023&sort=atitle&page=1" target="_blank" rel="noopener noreferrer" class="btn-badge btn-coreb">Core B Conference</a>
+        <a href="https://link.springer.com/chapter/10.1007/978-981-97-2266-2_12" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-badge btn-pres" aria-label="Presentation (replace # with your presentation link)">Presentation</a>
+      </div>
+    </div>
+  </div>
 </li>
 
 
