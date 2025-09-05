@@ -840,12 +840,60 @@ nav ul li a {
   </div>
 </li>
 <br>
-            <li><b>Rafiuddin, S. M. </b>(2019, December). <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/9068849" target="_blank" rel="noopener noreferrer"><b>Estimation of Phylogenetic Tree using Gene Sequencing Data.</b></a> <i>Electrical Information and Communication Technology (EICT), 2019 4th International Conference on.</i> IEEE, 2019.</li>
-            <br>
-            <li><b>Rafiuddin, S. M. </b>(2017, December). <a style="text-decoration:none" href="https://ieeexplore.ieee.org/document/8275214/" target="_blank" rel="noopener noreferrer"><b>Ranking of Bangla word graph using graph based ranking algorithms.</b></a> <i>Electrical Information and Communication Technology (EICT), 2017 3rd International Conference on.</i> IEEE, 2017.</li>
-            <br>
-            <li>Mishu, Sadia Zaman, and <b>S. M. Rafiuddin</b> (2016, December). <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/7860233/" target="_blank" rel="noopener noreferrer"><b>Performance analysis of supervised machine learning algorithms for text classification.</b></a> <i>Computer and Information Technology (ICCIT), 2016 19th International Conference on.</i> IEEE, 2016.</li>
-        </ol>
+            <li>
+  <div class="pub-row">
+    <div class="pub-img">
+      <img src="publications/PHYLO.png" alt="Estimation of Phylogenetic Tree using Gene Sequencing Data" loading="lazy">
+    </div>
+    <div class="pub-cite">
+      <b>Rafiuddin, S. M.</b> (2019, December). 
+      <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/9068849" target="_blank" rel="noopener noreferrer">
+        <b>Estimation of Phylogenetic Tree using Gene Sequencing Data.</b>
+      </a> 
+      <i>Electrical Information and Communication Technology (EICT), 2019 4th International Conference on.</i> IEEE, 2019.
+      <div class="pub-actions">
+        <a href="https://arxiv.org/pdf/2509.01407" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
+      </div>
+    </div>
+  </div>
+</li>
+ <br>
+            <li>
+  <div class="pub-row">
+    <div class="pub-img">
+      <img src="publications/RANKING.png" alt="Ranking of Bangla word graph using graph based ranking algorithms" loading="lazy">
+    </div>
+    <div class="pub-cite">
+      <b>Rafiuddin, S. M.</b> (2017, December). 
+      <a style="text-decoration:none" href="https://ieeexplore.ieee.org/document/8275214/" target="_blank" rel="noopener noreferrer">
+        <b>Ranking of Bangla word graph using graph based ranking algorithms.</b>
+      </a> 
+      <i>Electrical Information and Communication Technology (EICT), 2017 3rd International Conference on.</i> IEEE, 2017.
+      <div class="pub-actions">
+        <a href="https://arxiv.org/pdf/2509.01011" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
+      </div>
+    </div>
+  </div>
+</li>
+<br>
+            <li>
+  <div class="pub-row">
+    <div class="pub-img">
+      <img src="publications/ICCIT.png" alt="Performance analysis of supervised machine learning algorithms for text classification" loading="lazy">
+    </div>
+    <div class="pub-cite">
+      Mishu, Sadia Zaman, and <b>S. M. Rafiuddin</b> (2016, December). 
+      <a style="text-decoration:none" href="https://ieeexplore.ieee.org/abstract/document/7860233/" target="_blank" rel="noopener noreferrer">
+        <b>Performance analysis of supervised machine learning algorithms for text classification.</b>
+      </a> 
+      <i>Computer and Information Technology (ICCIT), 2016 19th International Conference on.</i> IEEE, 2016.
+      <div class="pub-actions">
+        <a href="https://arxiv.org/pdf/2509.00983" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
+      </div>
+    </div>
+  </div>
+</li>
+ </ol>
     </div>
 </section>
 
