@@ -776,7 +776,7 @@ nav ul li a {
       <b>(Acceptance Rate: 18.47%)</b>
       <div class="pub-actions">
         <a href="https://portal.core.edu.au/conf-ranks/?search=pakdd&by=all&source=CORE2023&sort=atitle&page=1" target="_blank" rel="noopener noreferrer" class="btn-badge btn-coreb">Core B Conference</a>
-        <a href="https://link.springer.com/chapter/10.1007/978-981-97-2266-2_12" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
+        <a href="https://arxiv.org/pdf/2402.13722" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
         <a href="#" target="_blank" rel="noopener noreferrer" class="btn-badge btn-pres" aria-label="Presentation (replace # with your presentation link)">Presentation</a>
       </div>
     </div>
