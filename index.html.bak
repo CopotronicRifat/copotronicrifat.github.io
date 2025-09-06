@@ -209,29 +209,31 @@
     <script src="js/respond.min.js"></script>
   <![endif]-->
   
-  <style>
-/* Fix disappearing social icons */
-.social-icon,
+<style>
+/* Social icons: keep original brand colors, no hover animation */
+.social-icon {
+  transition: none !important;   /* no animation */
+  cursor: pointer !important;    /* still clickable */
+  color: #fff;                   /* base icon color */
+}
+
 .social-icon i {
-  color: #fff !important;     /* icon always white */
+  color: inherit;                /* inherit from parent (.social-icon) */
 }
 
-.social-icon:hover i,
-.social-icon:focus i,
-.social-icon:active i {
-  color: #fff !important;     /* stay white on hover/focus/active */
-}
-
+/* Kill hover/focus/active without touching color or background */
 .social-icon:hover,
 .social-icon:focus,
 .social-icon:active {
-  background-color: inherit !important; /* keep brand background */
   opacity: 1 !important;
   transform: none !important;
   box-shadow: none !important;
   text-decoration: none !important;
+  color: inherit !important;          /* do not override */
+  background-color: inherit !important; /* keep brand bg */
 }
 </style>
+
 
 </head>
 

@@ -159,17 +159,15 @@
       transition: none !important;  /* kill hover animation */
       cursor: pointer;              /* clickable */
     }
-    .social-icon i { color: #fff !important; }
+    .social-icon i { color: inherit !important; }
 
-    /* Remove all hover/active/focus effects */
+    /* Remove all hover/active/focus effects, keep brand bg & icon */
     .social-icon:hover,
     .social-icon:focus,
     .social-icon:active {
       opacity: 1 !important;
       transform: none !important;
       box-shadow: none !important;
-      color: #fff !important;
-      background-color: inherit !important;
       text-decoration: none !important;
     }
 
@@ -180,7 +178,7 @@
     .youtube       { background:#ff0000; }
     .instagram     { background:#e4405f; }
     .pinterest     { background:#bd081c; }
-    .snapchat      { background:#fffc00; color:#000; }
+    .snapchat      { background:#fffc00; color:#000 !important; }
     .skype         { background:#00aff0; }
     .flickr        { background:#ff0084; }
     .reddit        { background:#ff4500; }
@@ -208,34 +206,8 @@
   <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
   <![endif]-->
-  
-<style>
-/* Social icons: keep original brand colors, no hover animation */
-.social-icon {
-  transition: none !important;   /* no animation */
-  cursor: pointer !important;    /* still clickable */
-  color: #fff;                   /* base icon color */
-}
-
-.social-icon i {
-  color: inherit;                /* inherit from parent (.social-icon) */
-}
-
-/* Kill hover/focus/active without touching color or background */
-.social-icon:hover,
-.social-icon:focus,
-.social-icon:active {
-  opacity: 1 !important;
-  transform: none !important;
-  box-shadow: none !important;
-  text-decoration: none !important;
-  color: inherit !important;          /* do not override */
-  background-color: inherit !important; /* keep brand bg */
-}
-</style>
-
-
 </head>
+
 
 
 
