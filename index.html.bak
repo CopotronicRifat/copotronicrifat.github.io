@@ -208,6 +208,31 @@
   <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
   <![endif]-->
+  
+  <style>
+/* Fix disappearing social icons */
+.social-icon,
+.social-icon i {
+  color: #fff !important;     /* icon always white */
+}
+
+.social-icon:hover i,
+.social-icon:focus i,
+.social-icon:active i {
+  color: #fff !important;     /* stay white on hover/focus/active */
+}
+
+.social-icon:hover,
+.social-icon:focus,
+.social-icon:active {
+  background-color: inherit !important; /* keep brand background */
+  opacity: 1 !important;
+  transform: none !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+</style>
+
 </head>
 
 
