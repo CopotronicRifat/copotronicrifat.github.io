@@ -246,7 +246,7 @@ at <a href="https://go.okstate.edu/" target="_blank" rel="noopener noreferrer"><
 <li><a href="#" data-nav-section="education" style="font-size:14px;"><b>Education</b></a></li>
 <li><a href="#" data-nav-section="experience" style="font-size:14px;"><b>Experience</b></a></li>
 <li><a href="#" data-nav-section="research" style="font-size:14px;"><b>Projects and Research</b></a></li>
-<li><a href="#" data-nav-section="publication" style="font-size:14px;"><b>Publication</b></a></li>
+<li><a href="#" data-nav-section="publication" style="font-size:14px;"><b>Publications</b></a></li>
 <li><a href="#" data-nav-section="misc" style="font-size:14px;"><b>Misc Links</b></a></li>
 <li><a href="#" data-nav-section="contact" style="font-size:14px;"><b>Contact</b></a></li>
 
@@ -843,7 +843,7 @@ nav ul li a {
             <li>
   <div class="pub-row">
     <div class="pub-img">
-      <img src="publications/PHYLO.png" alt="Estimation of Phylogenetic Tree using Gene Sequencing Data" loading="lazy">
+      <img src="publications/PHYLO.jpg" alt="Estimation of Phylogenetic Tree using Gene Sequencing Data" loading="lazy">
     </div>
     <div class="pub-cite">
       <b>Rafiuddin, S. M.</b> (2019, December). 
