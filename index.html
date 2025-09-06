@@ -289,6 +289,34 @@ a.btn-badge {
 }
 </style>
 
+
+<style>
+/* Kill ALL hover effects on social icons */
+.social-icon,
+.social-icon i {
+  color: #fff !important;       /* keep icon white always */
+  cursor: default !important;   /* no pointer cursor */
+}
+
+.social-icon:hover,
+.social-icon:focus,
+.social-icon:active {
+  opacity: 1 !important;
+  transform: none !important;
+  box-shadow: none !important;
+  color: #fff !important;       /* force white on hover */
+  background-color: inherit !important; /* keep same bg */
+  text-decoration: none !important;
+}
+
+/* If you want still clickable but no hover cursor change */
+.social-icon {
+  cursor: pointer !important;
+}
+</style>
+
+
+
   </head>
 
 
