@@ -277,6 +277,55 @@ a.btn-badge {
 </style>
 
 
+<style>
+  /* Universal “no-hover” for anything that behaves like a button */
+  button,
+  .btn,
+  [class*="btn"],
+  [role="button"],
+  a.btn-badge,
+  .btn-primary,
+  .btn-success,
+  .btn-info,
+  .btn-warning,
+  .btn-danger {
+    transition: none !important;
+  }
+
+  /* Remove visual changes on hover/active/focus/visited for buttons */
+  button:hover, button:active, button:focus, button:visited,
+  .btn:hover, .btn:active, .btn:focus, .btn:visited,
+  [class*="btn"]:hover, [class*="btn"]:active, [class*="btn"]:focus, [class*="btn"]:visited,
+  [role="button"]:hover, [role="button"]:active, [role="button"]:focus, [role="button"]:visited,
+  a.btn-badge:hover, a.btn-badge:active, a.btn-badge:focus, a.btn-badge:visited,
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:visited,
+  .btn-success:hover, .btn-success:active, .btn-success:focus, .btn-success:visited,
+  .btn-info:hover, .btn-info:active, .btn-info:focus, .btn-info:visited,
+  .btn-warning:hover, .btn-warning:active, .btn-warning:focus, .btn-warning:visited,
+  .btn-danger:hover, .btn-danger:active, .btn-danger:focus, .btn-danger:visited {
+    /* keep the exact same look as the default state */
+    background-color: inherit !important;
+    color: inherit !important;
+    border-color: inherit !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    filter: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+    outline: none !important;
+  }
+
+  /* Keep your non-button links blue + underline on hover */
+  a:not([class*="btn"]):not(.btn):not([role="button"]) {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  a:not([class*="btn"]):not(.btn):not([role="button"]):hover {
+    text-decoration: underline;
+  }
+</style>
+
+
   </head>
 
 
