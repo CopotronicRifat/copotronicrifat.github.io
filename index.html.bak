@@ -401,10 +401,18 @@ nav ul li a {
 <h2 class="colorlib-heading">Recent News</h2>
 
 <ul>
+
+<li><b>(September 2025)</b> Regular Conference Paper <b>ACCEPTED</b> at <a style="text-decoration:none" href="https://www.icmla-conference.org/icmla25/index.php" target="_blank" rel="noopener noreferrer"><b>ICMLA 2025</b></a> Main Conference!</li>
+<!-- Adjust the month if needed -->
+
+
 <li><b>(August 2025)</b> Visited 🍁<b><span style="color:red;">
   Canada
 </span>
 </b>🍁!</li>
+
+
+
 
 <li><b>(August 2025)</b> Short Paper <b>ACCEPTED</b> at <a style="text-decoration:none" href="https://2025.emnlp.org/" target="_blank" rel="noopener noreferrer"><b>EMNLP 2025</b></a> Findings!</li>
 
