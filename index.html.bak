@@ -402,62 +402,86 @@ nav ul li a {
 
 <ul>
 
-<li><b>(September 2025)</b> Regular Conference Paper <b>ACCEPTED</b> at <a style="text-decoration:none" href="https://www.icmla-conference.org/icmla25/index.php" target="_blank" rel="noopener noreferrer"><b>ICMLA 2025</b></a> Main Conference!</li>
+  <li><b>2025</b>
+    <ul>
+      <li><b>(September 2025)</b> Regular Conference Paper <b>ACCEPTED</b> at 
+        <a style="text-decoration:none" href="https://www.icmla-conference.org/icmla25/index.php" target="_blank" rel="noopener noreferrer"><b>ICMLA 2025</b></a> Main Conference!</li>
 
+      <li><b>(August 2025)</b> Visited 🍁<b><span style="color:red;">Canada</span></b>🍁!</li>
 
+      <li><b>(August 2025)</b> Short Paper <b>ACCEPTED</b> at 
+        <a style="text-decoration:none" href="https://2025.emnlp.org/" target="_blank" rel="noopener noreferrer"><b>EMNLP 2025</b></a> Findings!</li>
 
-<li><b>(August 2025)</b> Visited 🍁<b><span style="color:red;">
-  Canada
-</span>
-</b>🍁!</li>
+      <li><b>(August 2025)</b> Successfully completed my 
+        <a style="text-decoration:none" href="https://cs.okstate.edu/csprograms/phd/comprehensive_exam.html" target="_blank" rel="noopener noreferrer"><b>Ph.D. Comprehensive Exam</b></a>. 
+        <a href="https://drive.google.com/file/d/1bjfOEWIeMnCaNOdf_IKBo9kJzJqEhoTd/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="background-color:orange; color:white; padding:4px 10px; border-radius:6px; font-size:13px; text-decoration:none; margin-right:8px;">Paper</a>
+        <a href="https://drive.google.com/file/d/1Be-WdeoqZf_jluZPzpZblDKb6P-seNKO/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="background-color:orange; color:white; padding:4px 10px; border-radius:6px; font-size:13px; text-decoration:none;">Presentation</a>
+      </li>
 
+      <li><b>(June 2025)</b> Short Paper <b>ACCEPTED</b> at 
+        <a style="text-decoration:none" href="https://asonam.cpsc.ucalgary.ca/2025/" target="_blank" rel="noopener noreferrer"><b>ASONAM 2025</b></a>!</li>
 
+      <li><b>(April 2025)</b> Joined 
+        <a style="text-decoration:none" href="https://experts.okstate.edu/atriya.sen" target="_blank" rel="noopener noreferrer"><b>Dr. Atriya Sen</b></a>'s 
+        <a style="text-decoration:none" href="https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/" target="_blank" rel="noopener noreferrer"><b>Reasoning and Artificial Intelligence (rAIson) Laboratory</b></a>.
+      </li>
+    </ul>
+  </li>
 
+  <li><b>2024</b>
+    <ul>
+      <li><b>(December 2024)</b> Visited 🌴<b><span style="background: linear-gradient(to right, green, red); -webkit-background-clip: text; color: transparent;">Bangladesh</span></b>🌴!</li>
 
-<li><b>(August 2025)</b> Short Paper <b>ACCEPTED</b> at <a style="text-decoration:none" href="https://2025.emnlp.org/" target="_blank" rel="noopener noreferrer"><b>EMNLP 2025</b></a> Findings!</li>
+      <li><b>(November 2024)</b> Successfully completed my 
+        <a style="text-decoration:none" href="https://cs.okstate.edu/csprograms/phd/diagnostic_exam.html" target="_blank" rel="noopener noreferrer"><b>Ph.D. Diagnostic Exam</b></a>. 
+        <a href="https://drive.google.com/file/d/1xUQO7bJ86N2zeiYjg-mQ87qSUOUhQc5L/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="background-color:orange; color:white; padding:4px 10px; border-radius:6px; font-size:13px; text-decoration:none; margin-right:8px;">Report</a>
+        <a href="https://drive.google.com/file/d/1lJMzclWgJmQcXeJxLvcKZlvhjWWND2in/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="background-color:orange; color:white; padding:4px 10px; border-radius:6px; font-size:13px; text-decoration:none;">Presentation</a>
+      </li>
 
-<li><b>(August 2025)</b> Successfully completed my <a style="text-decoration:none" href="https://cs.okstate.edu/csprograms/phd/comprehensive_exam.html" target="_blank" rel="noopener noreferrer"><b>Ph.D. Comprehensive Exam</b></a>. <a href="https://drive.google.com/file/d/1bjfOEWIeMnCaNOdf_IKBo9kJzJqEhoTd/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="background-color:orange; color:white; padding:4px 10px; border-radius:6px; font-size:13px; text-decoration:none; margin-right:8px;">
-  Paper
-</a>
+      <li><b>(July 2024)</b> Awarded the 
+        <a style="text-decoration:none" href="https://gradcollege.okstate.edu/gpsga/funding-and-awards.html" target="_blank" rel="noopener noreferrer"><b>Graduate and Professional Student Government Association</b></a> - Individual Student Funds Travel Award and Research Materials Grant worth USD 600.
+      </li>
 
-<a href="https://drive.google.com/file/d/1Be-WdeoqZf_jluZPzpZblDKb6P-seNKO/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="background-color:orange; color:white; padding:4px 10px; border-radius:6px; font-size:13px; text-decoration:none;">
-  Presentation
-</a>
-</li>
+      <li><b>(May 2024)</b> Published our paper <b>Exploiting Adaptive Contextual Masking for Aspect-Based Sentiment Analysis</b> in 
+        <a style="text-decoration:none" href="https://link.springer.com/chapter/10.1007/978-981-97-2266-2_12" target="_blank" rel="noopener noreferrer"><b>Advances in Knowledge Discovery and Data Mining</b></a>.
+      </li>
 
-	<li><b>(June 2025)</b> Short Paper <b>ACCEPTED</b> at <a style="text-decoration:none" href="https://asonam.cpsc.ucalgary.ca/2025/" target="_blank" rel="noopener noreferrer"><b>ASONAM 2025</b></a>!</li>
+      <li><b>(May 2024)</b> Visited 🏯<b><span style="background: linear-gradient(to right, red, blue); -webkit-background-clip: text; color: transparent;">Taiwan</span></b>🏯!</li>
 
-    <li><b>(April 2025)</b> Joined <a style="text-decoration:none" href="https://experts.okstate.edu/atriya.sen" target="_blank" rel="noopener noreferrer"><b>Dr. Atriya Sen</b></a>'s <a style="text-decoration:none" href="https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/" target="_blank" rel="noopener noreferrer"><b>Reasoning and Artificial Intelligence (rAIson) Laboratory</b></a>.</li>
-    
-<li><b>(December 2024)</b> Visited 🌴<b><span style="background: linear-gradient(to right, green, red); -webkit-background-clip: text; color: transparent;">
-  Bangladesh
-</span>
-</b>🌴!</li>
+      <li><b>(January 2024)</b> Paper <b>ACCEPTED</b> at 
+        <a style="text-decoration:none" href="https://pakdd2024.org/" target="_blank" rel="noopener noreferrer"><b>PAKDD 2024</b></a>!</li>
+    </ul>
+  </li>
 
-    <li><b>(November 2024)</b> Successfully completed my <a style="text-decoration:none" href="https://cs.okstate.edu/csprograms/phd/diagnostic_exam.html" target="_blank" rel="noopener noreferrer"><b>Ph.D. Diagnostic Exam</b></a>. <a href="https://drive.google.com/file/d/1xUQO7bJ86N2zeiYjg-mQ87qSUOUhQc5L/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="background-color:orange; color:white; padding:4px 10px; border-radius:6px; font-size:13px; text-decoration:none; margin-right:8px;">
-  Report
-</a>
+  <li><b>2023</b>
+    <ul>
+      <li><b>(September 2023)</b> Completed 
+        <a style="text-decoration:none" href="https://www.coursera.org/account/accomplishments/specialization/EWELP9M63F8K" target="_blank" rel="noopener noreferrer"><b>Photography Basics and Beyond: From Smartphone to DSLR</b></a> on 
+        <a style="text-decoration:none" href="https://www.coursera.org" target="_blank" rel="noopener noreferrer">Coursera</a>.
+      </li>
 
-<a href="https://drive.google.com/file/d/1lJMzclWgJmQcXeJxLvcKZlvhjWWND2in/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="background-color:orange; color:white; padding:4px 10px; border-radius:6px; font-size:13px; text-decoration:none;">
-  Presentation
-</a>
-</li>
-    <li><b>(July 2024)</b> Awarded the <a style="text-decoration:none" href="https://gradcollege.okstate.edu/gpsga/funding-and-awards.html" target="_blank" rel="noopener noreferrer"><b>Graduate and Professional Student Government Association</b></a> - Individual Student Funds Travel Award and Research Materials Grant worth USD 600.</li>
-    
-	<li><b>(May 2024)</b> Published our paper <b>Exploiting Adaptive Contextual Masking for Aspect-Based Sentiment Analysis</b> in <a style="text-decoration:none" href="https://link.springer.com/chapter/10.1007/978-981-97-2266-2_12" target="_blank" rel="noopener noreferrer"><b>Advances in Knowledge Discovery and Data Mining</b></a>.</li>
-    
-<li><b>(May 2024)</b> Visited 🏯<b><span style="background: linear-gradient(to right, red, blue); -webkit-background-clip: text; color: transparent;">
-  Taiwan
-</span>
-</b>🏯!</li>
+      <li><b>(June 2023)</b> Completed the 
+        <a style="text-decoration:none" href="https://www.coursera.org/account/accomplishments/specialization/4FF756KK2RK3" target="_blank" rel="noopener noreferrer"><b>Deep Learning Specialization</b></a> on 
+        <a style="text-decoration:none" href="https://www.coursera.org" target="_blank" rel="noopener noreferrer">Coursera</a>.
+      </li>
 
-	<li><b>(January 2024)</b> Paper <b>ACCEPTED</b> at <a style="text-decoration:none" href="https://pakdd2024.org/" target="_blank" rel="noopener noreferrer"><b>PAKDD 2024</b></a>!</li>
-    <li><b>(September 2023)</b> Completed <a style="text-decoration:none" href="https://www.coursera.org/account/accomplishments/specialization/EWELP9M63F8K" target="_blank" rel="noopener noreferrer"><b>Photography Basics and Beyond: From Smartphone to DSLR</b></a> on <a style="text-decoration:none" href="https://www.coursera.org" target="_blank" rel="noopener noreferrer">Coursera</a>.</li>
-    <li><b>(June 2023)</b> Completed the <a style="text-decoration:none" href="https://www.coursera.org/account/accomplishments/specialization/4FF756KK2RK3" target="_blank" rel="noopener noreferrer"><b>Deep Learning Specialization</b></a> on <a style="text-decoration:none" href="https://www.coursera.org" target="_blank" rel="noopener noreferrer">Coursera</a>.</li>
-    <li><b>(May 2023)</b> Joined the <a style="text-decoration:none" href="https://arunkumar.okstate.edu/" target="_blank" rel="noopener noreferrer"><b>Complex System Lab</b></a> at Oklahoma State University.</li>
-    <li><b>(August 2022)</b> Began my role as a Graduate Teaching Assistant at Oklahoma State University and started my PhD!</li>
-    <li><b>(February 2022)</b> Two papers <b>ACCEPTED</b> at <a style="text-decoration:none" href="https://icca.aiub.edu/2022/" target="_blank" rel="noopener noreferrer"><b>ICCA 2022</b></a>.</li>
+      <li><b>(May 2023)</b> Joined the 
+        <a style="text-decoration:none" href="https://arunkumar.okstate.edu/" target="_blank" rel="noopener noreferrer"><b>Complex System Lab</b></a> at Oklahoma State University.</li>
+    </ul>
+  </li>
+
+  <li><b>2022</b>
+    <ul>
+      <li><b>(August 2022)</b> Began my role as a Graduate Teaching Assistant at Oklahoma State University and started my PhD!</li>
+
+      <li><b>(February 2022)</b> Two papers <b>ACCEPTED</b> at 
+        <a style="text-decoration:none" href="https://icca.aiub.edu/2022/" target="_blank" rel="noopener noreferrer"><b>ICCA 2022</b></a>.
+      </li>
+    </ul>
+  </li>
+
 </ul>
+
 
 
 			<br>
