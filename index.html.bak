@@ -742,8 +742,7 @@ nav ul li a {
 		
 		
 		
-		
-		<li>
+<li>
   <div class="pub-row">
     <div class="pub-img">
       <img src="publications/RETENTION.png" alt="Learning what to remember: Adaptive probabilistic memory retention for memory-efficient language models" loading="lazy">
@@ -755,6 +754,7 @@ nav ul li a {
       </a>
       <i>In Findings of the Association for Computational Linguistics: Conference on Empirical Methods in Natural Language Processing (EMNLP) 2025 (Short).</i>
       <div class="pub-actions">
+        <a href="https://portal.core.edu.au/conf-ranks/?search=EMNLP&by=all&source=CORE2023&sort=atitle&page=1" target="_blank" rel="noopener noreferrer" class="btn-badge btn-corea" style="background:#e53935;">Core A* Conference</a>
         <a href="https://arxiv.org/pdf/2510.08798" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
       </div>
     </div>
