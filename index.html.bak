@@ -700,6 +700,90 @@ nav ul li a {
         <b><i>(Most Recent First)</i></b>
         
         <ol type="1">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		<li>
+  <div class="pub-row">
+    <div class="pub-img">
+      <img src="publications/EDU.png" alt="Edu-EmotionNet: Cross-Modality Attention Alignment with Temporal Feedback Loops" loading="lazy">
+    </div>
+    <div class="pub-cite">
+      <b>Rafiuddin, S. M.</b> (Forthcoming 2025).
+      <a style="text-decoration:none" href="https://arxiv.org/abs/2510.08802" target="_blank" rel="noopener noreferrer">
+        <b>Edu-EmotionNet: Cross-Modality Attention Alignment with Temporal Feedback Loops.</b>
+      </a>
+      <i>In Proceedings of the 24th IEEE International Conference on Machine Learning and Applications (ICMLA 2025) (Regular).</i>
+      <div class="pub-actions">
+        <a href="https://arxiv.org/pdf/2510.08802" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
+      </div>
+    </div>
+  </div>
+</li>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<li>
+  <div class="pub-row">
+    <div class="pub-img">
+      <img src="publications/retention.png" alt="Learning what to remember: Adaptive probabilistic memory retention for memory-efficient language models" loading="lazy">
+    </div>
+    <div class="pub-cite">
+      <b>Rafiuddin, S. M.</b>, & Khan, M. N. (Forthcoming 2025).
+      <a style="text-decoration:none" href="https://arxiv.org/abs/2510.08798" target="_blank" rel="noopener noreferrer">
+        <b>Learning what to remember: Adaptive probabilistic memory retention for memory-efficient language models.</b>
+      </a>
+      <i>In Findings of the Association for Computational Linguistics: Conference on Empirical Methods in Natural Language Processing (EMNLP) 2025 (Short).</i>
+      <div class="pub-actions">
+        <a href="https://arxiv.org/pdf/2510.08798" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
+      </div>
+    </div>
+  </div>
+</li>
+
+		
+		
+				<li>
+  <div class="pub-row">
+    <div class="pub-img">
+      <img src="publications/MABSA.png" alt="AdaptiSent: Context-Aware Adaptive Attention for Multimodal Aspect-Based Sentiment Analysis" loading="lazy">
+    </div>
+    <div class="pub-cite">
+      <b>Rafiuddin, S. M.</b>, Kamal, S., Rakib, M., Bagavathi, A., & Sen, A. (Forthcoming 2025).
+      <a style="text-decoration:none" href="https://arxiv.org/abs/2507.12695" target="_blank" rel="noopener noreferrer">
+        <b>AdaptiSent: Context-Aware Adaptive Attention for Multimodal Aspect-Based Sentiment Analysis.</b>
+      </a>
+      <i>In Proceedings of the 17th International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2025) (Short).</i>
+      <div class="pub-actions">
+        <a href="https://arxiv.org/pdf/2507.12695" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
+      </div>
+    </div>
+  </div>
+</li>
+
+		
+		
+		
 <li>
   <div class="pub-row">
     <div class="pub-img">
