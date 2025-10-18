@@ -713,7 +713,7 @@ nav ul li a {
 		
 		
 		
-		<li>
+<li>
   <div class="pub-row">
     <div class="pub-img">
       <img src="publications/EDU.png" alt="Edu-EmotionNet: Cross-Modality Attention Alignment with Temporal Feedback Loops" loading="lazy">
@@ -725,6 +725,7 @@ nav ul li a {
       </a>
       <i>In Proceedings of the 24th IEEE International Conference on Machine Learning and Applications (ICMLA 2025) (Regular).</i>
       <div class="pub-actions">
+        <a href="https://portal.core.edu.au/conf-ranks/?search=ICMLA&by=all&source=CORE2023&sort=atitle&page=1" target="_blank" rel="noopener noreferrer" class="btn-badge btn-corec" style="background:#fbc02d;">Core C Conference</a>
         <a href="https://arxiv.org/pdf/2510.08802" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
       </div>
     </div>
