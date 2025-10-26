@@ -759,19 +759,27 @@ nav ul li a {
       <a style="text-decoration:none" href="https://arxiv.org/abs/2506.22493" target="_blank" rel="noopener noreferrer">
         <b>A Detailed Factor Analysis for the Political Compass Test: Navigating Ideologies of Large Language Models.</b>
       </a>
-      <i>In <a href="https://2025.aaclnet.org/" target="_blank" rel="noopener noreferrer">IJCNLP–AACL 2025</a>, Main Conference (Short).</i>
+      <i>In <b>International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP–AACL 2025)</b>, Main Conference (Short). December 20–24, 2025 — Victor Menezes Convention Centre (VMCC), IIT Bombay, Mumbai, India.</i>
       <div class="pub-actions">
-        <a href="https://portal.core.edu.au/conf-ranks/?search=ijcnlp&by=all&source=CORE2023&sort=atitle&page=1" target="_blank" rel="noopener noreferrer" class="btn-badge btn-coreb">Core B Conference</a>
+        <a href="https://portal.core.edu.au/conf-ranks/?search=IJCNLP&by=all&source=CORE2023&sort=atitle&page=1" target="_blank" rel="noopener noreferrer" class="btn-badge btn-coreb">Core B Conference</a>
+        <a href="https://2025.aaclnet.org/" target="_blank" rel="noopener noreferrer" class="btn-badge btn-website">Conference Website</a>
         <a href="https://arxiv.org/pdf/2506.22493" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
       </div>
     </div>
   </div>
 </li>
+
 		
 		
 		
 		
 
+		
+		
+		
+
+
+		
 		
 		
 		
@@ -785,7 +793,7 @@ nav ul li a {
       <a style="text-decoration:none" href="https://arxiv.org/abs/2510.08802" target="_blank" rel="noopener noreferrer">
         <b>Edu-EmotionNet: Cross-Modality Attention Alignment with Temporal Feedback Loops.</b>
       </a>
-      <i>In Proceedings of the 24th IEEE International Conference on Machine Learning and Applications (ICMLA 2025) (Regular).</i>
+      <i>In Proceedings of the <a href="https://www.icmla-conference.org/icmla25/" target="_blank" rel="noopener noreferrer"><b>24th International Conference on Machine Learning and Applications (ICMLA 2025)</b></a>, December 3–5, 2025, Boca Raton Marriott at Boca Center, Boca Raton, Florida, USA. Regular track. (Technically co-sponsored by IEEE; proceedings submitted to IEEE Xplore.)</i>
       <div class="pub-actions">
         <a href="https://portal.core.edu.au/conf-ranks/?search=ICMLA&by=all&source=CORE2023&sort=atitle&page=1" target="_blank" rel="noopener noreferrer" class="btn-badge btn-corec" style="background:#fbc02d;">Core C Conference</a>
         <a href="https://arxiv.org/pdf/2510.08802" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
@@ -794,11 +802,6 @@ nav ul li a {
   </div>
 </li>
 
-		
-		
-		
-		
-		
 		
 		
 		
@@ -815,7 +818,7 @@ nav ul li a {
       <a style="text-decoration:none" href="https://arxiv.org/abs/2510.08798" target="_blank" rel="noopener noreferrer">
         <b>Learning what to remember: Adaptive probabilistic memory retention for memory-efficient language models.</b>
       </a>
-      <i>In Findings of the Association for Computational Linguistics: Conference on Empirical Methods in Natural Language Processing (EMNLP) 2025 (Short).</i>
+      <i>In <a href="https://2025.emnlp.org/" target="_blank" rel="noopener noreferrer">Findings of the Association for Computational Linguistics: Conference on Empirical Methods in Natural Language Processing (EMNLP) 2025</a> (Short). November 5–9, 2025 — Suzhou International Expo Centre (SuzhouExpo), Suzhou, China.</i>
       <div class="pub-actions">
         <a href="https://portal.core.edu.au/conf-ranks/?search=EMNLP&by=all&source=CORE2023&sort=atitle&page=1" target="_blank" rel="noopener noreferrer" class="btn-badge btn-corea" style="background:#e53935;">Core A* Conference</a>
         <a href="https://arxiv.org/pdf/2510.08798" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
@@ -823,6 +826,7 @@ nav ul li a {
     </div>
   </div>
 </li>
+
 
 		
 		
@@ -836,7 +840,7 @@ nav ul li a {
       <a style="text-decoration:none" href="https://arxiv.org/abs/2507.12695" target="_blank" rel="noopener noreferrer">
         <b>AdaptiSent: Context-Aware Adaptive Attention for Multimodal Aspect-Based Sentiment Analysis.</b>
       </a>
-      <i>In Proceedings of the 17th International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2025) (Short).</i>
+      <i>In Proceedings of the 17th International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2025) (Short). August 25–28, 2025 — Embassy Suites, Niagara Falls, Ontario, Canada.</i>
       <b>(Acceptance Rate: ~25%)</b>
       <div class="pub-actions">
         <a href="https://portal.core.edu.au/conf-ranks/?search=ASONAM&by=all&source=CORE2023&sort=atitle&page=1" target="_blank" rel="noopener noreferrer" class="btn-badge btn-coreb">Core B Conference</a>
@@ -846,6 +850,7 @@ nav ul li a {
     </div>
   </div>
 </li>
+
 
 		
 		
