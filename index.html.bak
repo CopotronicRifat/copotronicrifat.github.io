@@ -661,9 +661,9 @@ nav ul li a {
                     <h2>Graduate Research Assistant <span>May 2023 - August 2023, May 2025 - August 2025</span></h2>
                     <p><a href="https://cas.okstate.edu/department_of_computer_science/" target="_blank" rel="noopener noreferrer"><b>Department of Computer Science</b></a>, <a href="https://go.okstate.edu/" target="_blank" rel="noopener noreferrer"><b>Oklahoma State University</b></a></p>
                     <ul>
-                        <li>Conducted research under the supervision of Dr. Atriya Sen in the <b>rAIson Lab</b> on causal sentiment reasoning in Twitter conversations.</li>
-                        <li>Developed a novel <b>Time-aware Graph Neural Network (TGNN)</b> to predict sentiment shifts in conversation trees.</li>
-                        <li>Implemented a causality-enforcing penalty mechanism to improve prediction accuracy and interpretability.</li>
+<li>Developed <b>multimodal sentiment reasoning (ABSA/MABSA)</b> models using <b>aspect-aware fusion</b> and <b>attention alignment</b> (text+image), and performed ablations to isolate the most critical components.</li>
+<li>Investigated <b>causal & robust multimodal reasoning</b> by studying cross-modality alignment and feedback for real-time emotion understanding under <b>missing/noisy modalities</b>.</li>
+<li>Built <b>masking & optimization</b> methods (contextual/syntax-guided masking; token-retention gating) to improve efficiency and memory/throughput, with <b>fully reproducible pipelines</b> and end-to-end profiling.</li>
                     </ul>
                 </div>
             </div>
