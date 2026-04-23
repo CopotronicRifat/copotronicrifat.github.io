@@ -763,7 +763,7 @@ nav ul li a {
 <li>
   <div class="pub-row">
     <div class="pub-img">
-      <img src="publications/Emergent-Discrete-Controller.png" alt="Emergent Discrete Controller Modules for Symbolic Planning in Transformers" loading="lazy">
+      <img src="publications/CTRL.png" alt="Emergent Discrete Controller Modules for Symbolic Planning in Transformers" loading="lazy">
     </div>
     <div class="pub-cite">
       <b>Rafiuddin, S. M.</b>, &amp; Khan, M. N.
