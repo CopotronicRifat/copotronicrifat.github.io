@@ -763,7 +763,7 @@ nav ul li a {
 <li>
   <div class="pub-row">
     <div class="pub-img">
-      <img src="publications/MaskLoRA.png" alt="MaskLoRA: Low-Rank Subspace–Induced Token Masking for Efficient and Faithful Language Models" loading="lazy">
+      <img src="publications/MASKLoRA.png" alt="MaskLoRA: Low-Rank Subspace–Induced Token Masking for Efficient and Faithful Language Models" loading="lazy">
     </div>
     <div class="pub-cite">
       <b>Rafiuddin, R.</b>
@@ -772,7 +772,7 @@ nav ul li a {
       </a>
       <i>In <a href="https://2026.eacl.org/" target="_blank" rel="noopener noreferrer"><b>Findings of the Association for Computational Linguistics: EACL 2026</b></a>, March 24–29, 2026, Rabat, Morocco. Association for Computational Linguistics.</i>
       <div class="pub-actions">
-        <a href="https://portal.core.edu.au/conf-ranks/468/" target="_blank" rel="noopener noreferrer" class="btn-badge btn-corea" style="background:#d32f2f; color:#fff;">Core A Conference</a>
+        <a href="https://portal.core.edu.au/conf-ranks/468/" target="_blank" rel="noopener noreferrer" class="btn-badge btn-corea" style="background:#ef9a9a; color:#111;">Core A Conference</a>
         <a href="https://aclanthology.org/2026.findings-eacl.300.pdf" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
         <a href="https://drive.google.com/file/d/1MaiTk6ThcumHCvtVOj5w7Zaqtqvdz8Y_/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-badge btn-pres" style="background:#7e57c2; color:#fff;">Presentation</a>
         <a href="https://drive.google.com/file/d/1Lpq6ChHxKtxlMkxZ7polnVbsRYr8600r/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-badge btn-poster" style="background:#9ccc65; color:#111;">Poster</a>
