@@ -355,9 +355,11 @@ nav ul li a {
   }
 </style>
 
+<!--
 <div class="center-cta">
   <p class="glow-cta">I am actively looking for Summer Internship. <br>Contact me for availability: srafiud [at] okstate [dot] edu</p>
 </div>
+-->
 
 <div class="link-buttons">
   <a href="S M (RIFAT) RAFIUDDIN - RESUME.pdf" target="_blank" rel="noopener noreferrer">📄 [Resume]</a>
@@ -648,7 +650,7 @@ nav ul li a {
                     <b>Theory Courses:</b>
                     <ul>
                         <li><b>Introduction to Computer Security</b> (Fall 2022), Dr. Sharmin Jahan</li>
-                        <li><b>Design and Implementation of Operating Systems I</b> (Spring 2023, Spring 2024), Dr. Shital Joshi</li>
+                        <li><b>Design and Implementation of Operating Systems I</b> (Spring 2023, Spring 2024, Spring 2026), Dr. Shital Joshi</li>
                         <li><b>Data Structures and Algorithm Analysis II</b> (Fall 2023), Dr. H. K. Dai</li>
                         <li><b>Discrete Mathematics for Computer Science</b> (Fall 2024), Dr. Sachin Jain</li>
                         <li><b>Social Issues in Computing</b> (Spring 2025), Dr. Rekha Bhowmik</li>
