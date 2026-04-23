@@ -761,6 +761,28 @@ nav ul li a {
 		
 		
 		
+
+
+<li>
+  <div class="pub-row">
+    <div class="pub-img">
+      <!-- Replace the image file below with your own thumbnail if needed -->
+      <img src="publications/COT.png" alt="A Formal Analysis of Chain-of-Thought Prompting via Turing Reductions" loading="lazy">
+    </div>
+    <div class="pub-cite">
+      <b>Rafiuddin, S. M.</b>, and Khan, M. N.
+      <a style="text-decoration:none" href="https://aclanthology.org/2025.ijcnlp-short.8/" target="_blank" rel="noopener noreferrer">
+        <b>A Formal Analysis of Chain-of-Thought Prompting via Turing Reductions.</b>
+      </a>
+      <i>In <a href="https://2025.aaclnet.org/" target="_blank" rel="noopener noreferrer"><b>International Joint Conference on Natural Language Processing and Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP–AACL 2025)</b></a>, Short Papers. December 20–24, 2025 — Victor Menezes Convention Centre (VMCC), IIT Bombay, Mumbai, India.</i>
+      <div class="pub-actions">
+        <a href="https://portal.core.edu.au/conf-ranks/1317/" target="_blank" rel="noopener noreferrer" class="btn-badge btn-coreb">CORE B Conference</a>
+        <a href="https://aclanthology.org/2025.ijcnlp-short.8.pdf" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
+      </div>
+    </div>
+  </div>
+</li>
+
 		
 		
 <li>
