@@ -763,7 +763,7 @@ nav ul li a {
 <li>
   <div class="pub-row">
     <div class="pub-img">
-      <img src="publications/MLORA.png" alt="MaskLoRA: Low-Rank Subspace–Induced Token Masking for Efficient and Faithful Language Models" loading="lazy">
+      <img src="publications/MASKLORA.png" alt="MaskLoRA: Low-Rank Subspace–Induced Token Masking for Efficient and Faithful Language Models" loading="lazy">
     </div>
     <div class="pub-cite">
       <b>Rafiuddin, R.</b>
