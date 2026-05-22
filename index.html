@@ -362,36 +362,58 @@ nav ul li a {
 -->
 
 <div class="link-buttons">
-  <a href="S M (RIFAT) RAFIUDDIN - RESUME.pdf" target="_blank" rel="noopener noreferrer">📄 [Resume]</a>
-  <a href="CV - S M RAFIUDDIN.pdf" target="_blank" rel="noopener noreferrer">🪪 [CV]</a>
-  <a href="https://github.com/CopotronicRifat" target="_blank" rel="noopener noreferrer">🐙 [Github]</a>
-  <a href="https://scholar.google.com/citations?user=OqjlcUsAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer">🎓 [Google Scholar]</a>
-  <a href="https://dblp.org/pid/326/6287.html" target="_blank" rel="noopener noreferrer">📚 [DBLP]</a>
-  <a href="https://www.semanticscholar.org/author/S-M-Rafiuddin/46961317" target="_blank" rel="noopener noreferrer">📖 [Semantic Scholar]</a>
-  <a href="https://orcid.org/0000-0001-9404-1556" target="_blank" rel="noopener noreferrer">🆔 [ORCID]</a>
-  <a href="https://www.linkedin.com/in/copotronicrifat/" target="_blank" rel="noopener noreferrer">💼 [LinkedIn]</a>
-  <a href="https://twitter.com/CopotronicRifat" target="_blank" rel="noopener noreferrer">✖️ [X]</a>
-  <a href="https://copotronicrifat.wordpress.com/" target="_blank" rel="noopener noreferrer">✍️ [Personal Blog]</a>
+  <a href="S M (RIFAT) RAFIUDDIN - RESUME.pdf" target="_blank" rel="noopener noreferrer">📄 Resume</a>
+  <a href="CV - S M RAFIUDDIN.pdf" target="_blank" rel="noopener noreferrer">🪪 CV</a>
+  <a href="https://github.com/CopotronicRifat" target="_blank" rel="noopener noreferrer">🐙 GitHub</a>
+  <a href="https://scholar.google.com/citations?user=OqjlcUsAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer">🎓 Google Scholar</a>
+  <a href="https://dblp.org/pid/326/6287.html" target="_blank" rel="noopener noreferrer">📚 DBLP</a>
+  <a href="https://www.semanticscholar.org/author/S-M-Rafiuddin/46961317" target="_blank" rel="noopener noreferrer">📖 Semantic Scholar</a>
+  <a href="https://orcid.org/0000-0001-9404-1556" target="_blank" rel="noopener noreferrer">🆔 ORCID</a>
+  <a href="https://www.linkedin.com/in/copotronicrifat/" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a>
+  <a href="https://twitter.com/CopotronicRifat" target="_blank" rel="noopener noreferrer">✖️ X</a>
+  <a href="https://copotronicrifat.wordpress.com/" target="_blank" rel="noopener noreferrer">✍️ Personal Blog</a>
 </div>
 
 <style>
 .link-buttons {
   display: flex;
-  flex-wrap: wrap;        /* allow wrapping */
-  gap: 12px 24px;         /* vertical and horizontal spacing */
-  justify-content: center;/* center items in row */
-  margin: 15px 0;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
 }
 
 .link-buttons a {
-  font-size: 16px;
-  color: blue;            /* make links blue */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 155px;
+  height: 42px;
+  padding: 0 16px;
+
+  font-size: 15px;
+  font-weight: 600;
+  color: #0f172a;
   text-decoration: none;
-  font-weight: bold;
+
+  background-color: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+
+  transition: all 0.2s ease;
 }
 
 .link-buttons a:hover {
-  text-decoration: underline;
+  color: #ffffff;
+  background-color: #0891b2;
+  border-color: #0891b2;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.link-buttons a:active {
+  transform: translateY(0);
 }
 </style>
 
