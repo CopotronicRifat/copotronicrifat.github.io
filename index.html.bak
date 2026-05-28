@@ -300,21 +300,25 @@ nav ul li a {
   <a style="text-decoration:none" href="https://cas.okstate.edu/department_of_computer_science/" target="_blank" rel="noopener noreferrer"><strong>Computer Science</strong></a> 
   at 
   <a style="text-decoration:none" href="https://go.okstate.edu/" target="_blank" rel="noopener noreferrer"><strong>Oklahoma State University</strong></a>, 
-  working in the 
+  where I work in the 
   <a style="text-decoration:none" href="https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/" target="_blank" rel="noopener noreferrer"><strong>Reasoning and Artificial Intelligence (rAIson) Lab</strong></a> 
-  under 
+  under the supervision of 
   <a style="text-decoration:none" href="https://experts.okstate.edu/atriya.sen" target="_blank" rel="noopener noreferrer"><strong>Dr. Atriya Sen</strong></a>. 
-  My research sits at the intersection of <strong>machine learning</strong>, <strong>deep learning</strong>, and <strong>natural language processing</strong>, and aims to deliver <strong>impactful, real-world solutions</strong> through <strong>foundational work</strong> and <strong>interdisciplinary collaboration</strong>.
+  My research lies at the intersection of <strong>machine learning</strong>, <strong>deep learning</strong>, and <strong>natural language processing</strong>, with a focus on building efficient, interpretable, and reliable learning systems.
 </p>
 
 <p>
-  Prior to my Ph.D., I served as a 
+  My current research focuses on <strong>memory-efficient language models</strong>, <strong>explainability in large language models</strong>, and <strong>representation learning</strong>. I am particularly interested in methods that analyze and improve how language models retain information, represent reasoning behavior, and use computational resources efficiently. My recent work explores directions such as low-rank token masking, adaptive memory retention, symbolic planning in transformers, and cross-modal reasoning.
+</p>
+
+<p>
+  Prior to beginning my Ph.D., I served as a 
   <a style="text-decoration:none" href="https://cse.uap-bd.edu/faculties/faculty_details/19" target="_blank" rel="noopener noreferrer"><strong>Lecturer</strong></a> 
   in the 
   <a style="text-decoration:none" href="https://cse.uap-bd.edu" target="_blank" rel="noopener noreferrer"><strong>Department of Computer Science and Engineering</strong></a> 
   at the 
-  <a style="text-decoration:none" href="https://uap-bd.edu/" target="_blank" rel="noopener noreferrer"><strong>University of Asia Pacific</strong></a>, 
-  where I taught Machine Learning and Computer Graphics Lab, and mentored undergraduate research projects.
+  <a style="text-decoration:none" href="https://uap-bd.edu/" target="_blank" rel="noopener noreferrer"><strong>University of Asia Pacific</strong></a>. 
+  In this role, I taught undergraduate computer science courses, including <strong>Machine Learning</strong>, <strong>Pattern Recognition</strong>, <strong>Algorithms</strong>, and <strong>Computer Graphics Lab</strong>, and mentored undergraduate research projects.
 </p>
 
 <p>
@@ -323,7 +327,7 @@ nav ul li a {
 </p>
 
 <p>
-  My current focus areas are <strong>multimodal representation learning</strong>, <strong>explainability in large language models</strong>, and <strong>memory-efficient language models</strong>. I am passionate about advancing the state of AI through research and aim to pursue a career in academia, combining impactful research with dedicated teaching and mentorship.
+  My long-term goal is to pursue an academic career that combines rigorous research, effective teaching, and sustained mentorship. I am broadly interested in developing machine learning methods that are not only technically strong but also interpretable, reproducible, and useful for real-world scientific and societal problems.
 </p>
 
 
