@@ -786,6 +786,26 @@ nav ul li a {
 
     <ol type="1">
 
+
+	<li>
+  <div class="pub-row">
+    <div class="pub-img">
+      <img src="publications/CROSS.jpg" alt="Cross-Domain Adversarial Augmentation: Stabilizing GANs for Medical and Handwriting Data Scarcity" loading="lazy">
+    </div>
+    <div class="pub-cite">
+      Md. Sohanzuzzaman Soad, Mahady Al Hady, <b>Rafiuddin, R.</b>, and Sudip Ghose.
+      <a style="text-decoration:none" href="https://arxiv.org/abs/2605.01815" target="_blank" rel="noopener noreferrer">
+        <b>Cross-Domain Adversarial Augmentation: Stabilizing GANs for Medical and Handwriting Data Scarcity.</b>
+      </a>
+      <i>In <b>IEEE International Conference on Robotics, Automation, Artificial-Intelligence and Internet-of-Things 2025</b>, 2026.</i>
+      <div class="pub-actions">
+        <a href="https://arxiv.org/abs/2605.01815" target="_blank" rel="noopener noreferrer" class="btn-badge btn-arxiv" style="background:#b31b1b; color:#fff;">arXiv</a>
+        <a href="https://arxiv.org/pdf/2605.01815" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper" style="background:#1565c0; color:#fff;">Paper</a>
+      </div>
+    </div>
+  </div>
+</li>
+
       <li>
         <div class="pub-row">
           <div class="pub-img">
