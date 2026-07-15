@@ -480,7 +480,10 @@ nav ul li a {
 </li>
 <li><b>(January 2026)</b> Research Paper <b>ACCEPTED</b> at 
   <a style="text-decoration:none" href="https://2026.eacl.org/" target="_blank" rel="noopener noreferrer"><b>Findings of EACL 2026</b></a>!
+  
   <a href="https://aclanthology.org/2026.findings-eacl.300.pdf" target="_blank" rel="noopener noreferrer" style="background-color:orange; color:white; padding:4px 10px; border-radius:6px; font-size:13px; text-decoration:none; margin-left:8px;">Paper</a>
+
+  <a href="https://underline.io/lecture/146683-masklora-low-rank-subspace-induced-token-masking-for-efficient-and-faithful-language-models" target="_blank" rel="noopener noreferrer" style="background-color:orange; color:white; padding:4px 10px; border-radius:6px; font-size:13px; text-decoration:none; margin-left:8px;">Presentation</a>
 </li>
   </ul>
 
