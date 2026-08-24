@@ -1,6 +1,6 @@
-_site/
+.DS_Store
+**/.DS_Store
 .sass-cache/
 .jekyll-cache/
-Gemfile.lock
-vendor/
-.DS_Store
+*.bak
+prepros-*.config

@@ -1,28 +1,21 @@
-# Academic website — S M (Rifat) Rafiuddin
+# Rifat Rafiuddin — Academic Portfolio
 
-This repository contains a single-page, faculty-search-focused academic website for GitHub Pages. Its layout is adapted from [Minimal Light](https://github.com/yaoyao-liu/minimal-light), with the original portfolio's section structure, monospace typography, institutional logos, detailed academic content, and PhD Comics feature.
+This repository contains the original single-page portfolio used at
+<https://copotronicrifat.github.io/>. The visual design, navigation, typography,
+colors, and interaction behavior are intentionally preserved.
 
-## Publish on GitHub Pages
+## Repository structure
 
-1. Replace the contents of the copotronicrifat.github.io repository with the contents of this folder.
-2. Commit and push to the repository's default branch.
-3. In Settings → Pages, select Deploy from a branch, then choose the default branch and the repository root.
-4. Allow GitHub Pages a few minutes to rebuild the site.
+- `index.html` — complete single-page website
+- `css/`, `sass/` — original theme styles and source files
+- `js/` — original website scripts
+- `fonts/` — local icon and Bootstrap fonts
+- `images/` — profile image, favicon, and institution logos
+- `publications/` — publication thumbnails
+- `files/` — current CV, resume, and teaching materials
+- `data/` — supplementary XML data
 
-## Site structure
+## Publishing
 
-- Homepage and all visible content: index.md
-- Publication records: _data/publications.yml
-- Publication component: _includes/publications.html
-- Profile, icon links, and navigation: _layouts/homepage.html
-- Identity, profile URLs, and metadata: _config.yml
-- Styling: assets/css/style.css
-- Current CV: assets/files/Rifat_Rafiuddin_CV.pdf
-
-Navigation uses same-page anchors:
-
-About → News → Education → Experience → Publications → Projects and Research → Misc Links → Contact
-
-## Local preview
-
-Run bundle install, followed by bundle exec jekyll serve.
+GitHub Pages serves `index.html` directly from the repository root. No build
+step, Jekyll theme, or package installation is required.
