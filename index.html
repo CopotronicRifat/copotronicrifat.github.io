@@ -106,25 +106,105 @@
 
   <!-- Publication layout -->
   <style>
-    .pub-row {
-      display: flex;
-      gap: 16px;
-      align-items: flex-start;
-      margin-bottom: 20px;
+    [data-section="publication"] .publication-list {
+      list-style: none;
+      margin: 14px 0 0;
+      padding: 0;
     }
-    .pub-img img {
-      width: 130px;
-      height: 130px;
-      object-fit: contain;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    [data-section="publication"] .publication-list > li {
+      margin: 0;
+      padding: 18px 0;
+      border-bottom: 1px solid #e2e2e2;
+    }
+    [data-section="publication"] .pub-row {
+      display: grid;
+      grid-template-columns: 165px minmax(0, 1fr);
+      gap: 18px;
+      align-items: start;
+      margin: 0;
+    }
+    [data-section="publication"] .pub-img {
+      position: relative;
+      width: 165px;
+    }
+    [data-section="publication"] .pub-img img {
       display: block;
+      width: 165px;
+      height: 108px;
+      object-fit: contain;
+      background: #fff;
+      border: 1px solid #dedede;
+      border-radius: 5px;
+      box-shadow: none;
     }
-    .pub-cite { flex: 1; }
-    .pub-actions { margin-top: 8px; }
+    [data-section="publication"] .pub-venue-badge {
+      position: absolute;
+      top: 7px;
+      left: 7px;
+      padding: 2px 6px;
+      border-radius: 3px;
+      background: #174f71;
+      color: #fff;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.45;
+    }
+    [data-section="publication"] .pub-cite {
+      min-width: 0;
+      line-height: 1.48;
+    }
+    [data-section="publication"] .pub-cite > a:not(.btn-badge) {
+      display: block;
+      margin: 3px 0;
+      line-height: 1.42;
+    }
+    [data-section="publication"] .pub-title {
+      display: block;
+      margin: 3px 0;
+      line-height: 1.42;
+    }
+    [data-section="publication"] .pub-cite > i {
+      display: block;
+      font-size: 13px;
+      line-height: 1.48;
+    }
+    [data-section="publication"] .pub-note {
+      display: inline-block;
+      margin-top: 6px;
+      color: #7a3b00;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    [data-section="publication"] .pub-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 7px;
+    }
+    [data-section="publication"] .pub-actions .btn-badge {
+      margin: 0;
+      padding: 2px 7px;
+      border: 1px solid #555;
+      border-radius: 3px;
+      background: #fff !important;
+      color: #333 !important;
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
     @media (max-width:768px){
-      .pub-row { flex-direction: column; }
-      .pub-img img { width: 100%; max-width: 260px; height: auto; }
+      [data-section="publication"] .pub-row {
+        grid-template-columns: 1fr;
+      }
+      [data-section="publication"] .pub-img,
+      [data-section="publication"] .pub-img img {
+        width: 100%;
+        max-width: 320px;
+      }
+      [data-section="publication"] .pub-img img {
+        height: auto;
+        aspect-ratio: 165 / 108;
+      }
     }
   </style>
 
@@ -853,12 +933,34 @@ nav ul li a {
 
     <b><i>(Most Recent First)</i></b>
 
-    <ol type="1">
+    <ol type="1" class="publication-list">
+
+<li>
+  <div class="pub-row">
+    <div class="pub-img">
+      <img src="publications/C3T.png" alt="C3T: Counterfactual Causal Reasoning for Sentiment Shifts in Social-Media Conversation Trees" loading="lazy">
+      <span class="pub-venue-badge">EMNLP 2026</span>
+    </div>
+
+    <div class="pub-cite">
+      <b>Rafiuddin, S. M.</b>, and Sen, A.
+
+      <span class="pub-title"><b>C<sup>3</sup>T: Counterfactual Causal Reasoning for Sentiment Shifts in Social-Media Conversation Trees.</b></span>
+
+      <i>
+        In the <b>2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)</b>, Main Conference. Association for Computational Linguistics. To appear.
+      </i>
+
+      <span class="pub-note">Main Conference · To appear</span>
+    </div>
+  </div>
+</li>
 
 <li>
   <div class="pub-row">
     <div class="pub-img">
       <img src="publications/CAVE.png" alt="Constraint-Aware Counterfactual Editing for Aspect-Based Sentiment Analysis" loading="lazy">
+      <span class="pub-venue-badge">HHAI-KEML 2026</span>
     </div>
 
     <div class="pub-cite">
@@ -885,6 +987,7 @@ nav ul li a {
   <div class="pub-row">
     <div class="pub-img">
       <img src="publications/CCM.png" alt="Context-Conditioned Masked LoRA: Dynamic Rank Routing for Compute-Efficient Parameter-Efficient Fine-Tuning" loading="lazy">
+      <span class="pub-venue-badge">ACL 2026</span>
     </div>
 
     <div class="pub-cite">
@@ -914,6 +1017,7 @@ nav ul li a {
   <div class="pub-row">
     <div class="pub-img">
       <img src="publications/CROSS.jpg" alt="Cross-Domain Adversarial Augmentation: Stabilizing GANs for Medical and Handwriting Data Scarcity" loading="lazy">
+      <span class="pub-venue-badge">RAAICON 2025</span>
     </div>
     <div class="pub-cite">
       Md. Sohanzuzzaman Soad, Mahady Al Hady, <b>Rafiuddin, R.</b>, and Sudip Ghose.
@@ -933,6 +1037,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/MASKLORA.png" alt="MaskLoRA: Low-Rank Subspace–Induced Token Masking for Efficient and Faithful Language Models" loading="lazy">
+            <span class="pub-venue-badge">EACL 2026</span>
           </div>
           <div class="pub-cite">
             <b>Rafiuddin, R.</b>
@@ -955,6 +1060,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/CTRL.png" alt="Emergent Discrete Controller Modules for Symbolic Planning in Transformers" loading="lazy">
+            <span class="pub-venue-badge">ICLR 2026</span>
           </div>
           <div class="pub-cite">
             <b>Rafiuddin, S. M.</b>, &amp; Khan, M. N.
@@ -977,6 +1083,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/COT.png" alt="A Formal Analysis of Chain-of-Thought Prompting via Turing Reductions" loading="lazy">
+            <span class="pub-venue-badge">AACL 2025</span>
           </div>
           <div class="pub-cite">
             <b>Rafiuddin, S. M.</b>, and Khan, M. N.
@@ -996,6 +1103,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/PCT.png" alt="A Detailed Factor Analysis for the Political Compass Test: Navigating Ideologies of Large Language Models" loading="lazy">
+            <span class="pub-venue-badge">AACL 2025</span>
           </div>
           <div class="pub-cite">
             Kamal, S., Prakash, L. P. Y., <b>Rafiuddin, S. M.</b>, Rakib, M., Sen, A., &amp; Ray Choudhury, S.
@@ -1015,6 +1123,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/EDU.png" alt="Edu-EmotionNet: Cross-Modality Attention Alignment with Temporal Feedback Loops" loading="lazy">
+            <span class="pub-venue-badge">ICMLA 2025</span>
           </div>
           <div class="pub-cite">
             <b>Rafiuddin, S. M.</b>
@@ -1035,6 +1144,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/RETENTION.png" alt="Learning what to remember: Adaptive probabilistic memory retention for memory-efficient language models" loading="lazy">
+            <span class="pub-venue-badge">EMNLP 2025</span>
           </div>
           <div class="pub-cite">
             <b>Rafiuddin, S. M.</b>, &amp; Khan, M. N.
@@ -1054,6 +1164,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/MABSA.png" alt="AdaptiSent: Context-Aware Adaptive Attention for Multimodal Aspect-Based Sentiment Analysis" loading="lazy">
+            <span class="pub-venue-badge">ASONAM 2025</span>
           </div>
           <div class="pub-cite">
             <b>Rafiuddin, S. M.</b>, Kamal, S., Rakib, M., Bagavathi, A., &amp; Sen, A. (Forthcoming 2025).
@@ -1075,6 +1186,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/PAKDD.png" alt="PAKDD 2024 paper thumbnail" loading="lazy">
+            <span class="pub-venue-badge">PAKDD 2024</span>
           </div>
           <div class="pub-cite">
             <b>Rafiuddin, S.M.</b>, Rakib, M., Kamal, S. and Bagavathi, A., 2024, April.
@@ -1096,6 +1208,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/ISOLATED.png" alt="Isolated Bangla Handwritten Character Classification" loading="lazy">
+            <span class="pub-venue-badge">ICCA 2022</span>
           </div>
           <div class="pub-cite">
             Karim, M. A., <b>Rafiuddin, S. M.</b>, Islam Razin, M. J., &amp; Alam, T. (2022, March).
@@ -1114,6 +1227,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/HIGH.png" alt="High Cursive Complex Character Recognition" loading="lazy">
+            <span class="pub-venue-badge">ICCA 2022</span>
           </div>
           <div class="pub-cite">
             <b>Rafiuddin, S. M.</b> (2022, March).
@@ -1132,6 +1246,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/LSTM.png" alt="LSTM Model for Business Sentiment Analysis" loading="lazy">
+            <span class="pub-venue-badge">Springer 2021</span>
           </div>
           <div class="pub-cite">
             Razin, J. I., Abdul Karim, M., Mridha, M. F., <b>Rafiuddin Rifat, S. M.</b>, &amp; Alam, T. (2021).
@@ -1150,6 +1265,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/PHYLO.jpg" alt="Estimation of Phylogenetic Tree using Gene Sequencing Data" loading="lazy">
+            <span class="pub-venue-badge">EICT 2019</span>
           </div>
           <div class="pub-cite">
             <b>Rafiuddin, S. M.</b> (2019, December).
@@ -1168,6 +1284,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/RANKING.png" alt="Ranking of Bangla word graph using graph based ranking algorithms" loading="lazy">
+            <span class="pub-venue-badge">EICT 2017</span>
           </div>
           <div class="pub-cite">
             <b>Rafiuddin, S. M.</b> (2017, December).
@@ -1186,6 +1303,7 @@ nav ul li a {
         <div class="pub-row">
           <div class="pub-img">
             <img src="publications/ICCIT.png" alt="Performance analysis of supervised machine learning algorithms for text classification" loading="lazy">
+            <span class="pub-venue-badge">ICCIT 2016</span>
           </div>
           <div class="pub-cite">
             Mishu, Sadia Zaman, and <b>S. M. Rafiuddin</b> (2016, December).
