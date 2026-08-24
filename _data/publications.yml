@@ -1,0 +1,159 @@
+main:
+  - title: "C³T: Counterfactual Causal Reasoning for Sentiment Shifts in Social-Media Conversation Trees"
+    authors: "<strong>S M Rafiuddin</strong> and Atriya Sen"
+    venue_short: EMNLP 2026
+    venue: "2026 Conference on Empirical Methods in Natural Language Processing (EMNLP), Main Conference; to appear."
+    note: Main Conference · To appear
+    selected: true
+
+  - title: "Context-Conditioned Masked LoRA: Dynamic Rank Routing for Compute-Efficient Parameter-Efficient Fine-Tuning"
+    authors: "<strong>S M Rafiuddin</strong> and Rafae Abdullah"
+    venue_short: ACL 2026
+    venue: "Findings of the Association for Computational Linguistics: ACL 2026, pp. 26670–26689."
+    paper: https://aclanthology.org/2026.findings-acl.1329/
+    image: /assets/img/publications/CCM.png
+    note: 61% fewer adapter FLOPs · approximately 8% higher training throughput
+    selected: true
+
+  - title: "Emergent Discrete Controller Modules for Symbolic Planning in Transformers"
+    authors: "<strong>S M Rafiuddin</strong> and Muntaha Nujat Khan"
+    venue_short: ICLR 2026
+    venue: "International Conference on Learning Representations (ICLR), 2026."
+    paper: https://openreview.net/forum?id=14dlTHVxDX
+    presentation: https://drive.google.com/file/d/1hciAKAmnRcAU6oRsR19gcGVAgtrOuNJ0/view?usp=sharing
+    poster: https://drive.google.com/file/d/1zSPzKvvhEaBvx2Klkn7AxgDfUxBWGvpH/view?usp=sharing
+    video: https://recorder-v3.slideslive.com/?share=109704&s=5b6efb57-7712-434e-838e-8dcb942188ef
+    image: /assets/img/publications/CTRL.png
+    note: Main Conference
+    selected: true
+
+  - title: "MaskLoRA: Low-Rank Subspace–Induced Token Masking for Efficient and Faithful Language Models"
+    authors: "<strong>S M Rafiuddin</strong>"
+    venue_short: EACL 2026
+    venue: "Findings of the Association for Computational Linguistics: EACL 2026, pp. 5678–5692."
+    paper: https://aclanthology.org/2026.findings-eacl.300/
+    presentation: https://drive.google.com/file/d/1MaiTk6ThcumHCvtVOj5w7Zaqtqvdz8Y_/view?usp=sharing
+    poster: https://drive.google.com/file/d/1Lpq6ChHxKtxlMkxZ7polnVbsRYr8600r/view?usp=sharing
+    video: https://drive.google.com/file/d/1yq8Zz3nvPODtOtaC_gbZhXS-xaJ_Qdm4/view?usp=sharing
+    image: /assets/img/publications/MASKLORA.png
+    note: 1.3–2.6× encoder speedups · 1.5–3.6× long-context speedups
+    selected: true
+
+  - title: "A Formal Analysis of Chain-of-Thought Prompting via Turing Reductions"
+    authors: "<strong>S M Rafiuddin</strong> and Muntaha Nujat Khan"
+    venue_short: AACL 2025
+    venue: "Proceedings of IJCNLP–AACL 2025: Short Papers, pp. 87–98."
+    paper: https://aclanthology.org/2025.ijcnlp-short.8/
+    image: /assets/img/publications/COT.png
+    note: First-authored short paper
+    selected: true
+
+  - title: "A Detailed Factor Analysis for the Political Compass Test: Navigating Ideologies of Large Language Models"
+    authors: "Sadia Kamal, Lalu Prasad Yadav Prakash, <strong>S M Rafiuddin</strong>, Mohammed Rakib, Atriya Sen, and Sagnik Ray Choudhury"
+    venue_short: AACL 2025
+    venue: "Proceedings of IJCNLP–AACL 2025: Short Papers, pp. 284–303."
+    paper: https://aclanthology.org/2025.ijcnlp-short.25/
+    image: /assets/img/publications/PCT.png
+    note: Co-authored short paper
+    selected: true
+
+  - title: "Edu-EmotionNet: Cross-Modality Attention Alignment with Temporal Feedback Loops"
+    authors: "<strong>S M Rafiuddin</strong>"
+    venue_short: ICMLA 2025
+    venue: "Proceedings of the 24th International Conference on Machine Learning and Applications (ICMLA), pp. 200–205, 2025."
+    paper: https://doi.org/10.1109/ICMLA66185.2025.00033
+    presentation: https://drive.google.com/file/d/1gBLioC3knvmvQ_bCOfKfHiQ4tLWu4nMf/view?usp=sharing
+    image: /assets/img/publications/EDU.png
+    selected: false
+
+  - title: "Cross-Domain Adversarial Augmentation: Stabilizing GANs for Medical and Handwriting Data Scarcity"
+    authors: "Md. Sohanuzzaman Soad, Mahady Al Hady, <strong>S M Rafiuddin</strong>, and Sudip Ghose"
+    venue_short: RAAICON 2025
+    venue: "Proceedings of the 2025 IEEE 4th International Conference on Robotics, Automation, Artificial Intelligence and Internet-of-Things."
+    paper: https://arxiv.org/abs/2605.01815
+    image: /assets/img/publications/CROSS.jpg
+    selected: false
+
+  - title: "Learning What to Remember: Adaptive Probabilistic Memory Retention for Memory-Efficient Language Models"
+    authors: "<strong>S M Rafiuddin</strong> and Muntaha Nujat Khan"
+    venue_short: EMNLP 2025
+    venue: "Findings of the Association for Computational Linguistics: EMNLP 2025, pp. 3969–3981."
+    paper: https://aclanthology.org/2025.findings-emnlp.212/
+    image: /assets/img/publications/RETENTION.png
+    selected: true
+
+  - title: "AdaptiSent: Context-Aware Adaptive Attention for Multimodal Aspect-Based Sentiment Analysis"
+    authors: "<strong>S M Rafiuddin</strong>, Sadia Kamal, Mohammed Rakib, Arunkumar Bagavathi, and Atriya Sen"
+    venue_short: ASONAM 2025
+    venue: "Social Networks Analysis and Mining: Proceedings of ASONAM 2025, LNCS 16322, pp. 133–141."
+    paper: https://doi.org/10.1007/978-3-032-13513-1_11
+    presentation: https://drive.google.com/file/d/1LS3LrzwBrHAauRFjpICigHYGqZWF8oc9/view?usp=drive_link
+    image: /assets/img/publications/MABSA.png
+    selected: true
+
+  - title: "Exploiting Adaptive Contextual Masking for Aspect-Based Sentiment Analysis"
+    authors: "<strong>S M Rafiuddin</strong>, Mohammed Rakib, Sadia Kamal, and Arunkumar Bagavathi"
+    venue_short: PAKDD 2024
+    venue: "Advances in Knowledge Discovery and Data Mining: Proceedings of PAKDD 2024, LNCS 14650, pp. 147–159."
+    paper: https://doi.org/10.1007/978-981-97-2266-2_12
+    presentation: https://drive.google.com/file/d/1eEZlgOdc_FjbCD0clq8c7WoPpIlwZ9Xg/view?usp=sharing
+    image: /assets/img/publications/PAKDD.png
+    selected: true
+
+  - title: "Isolated Bangla Handwritten Character Classification Using Transfer Learning"
+    authors: "Md. Abdul Karim, <strong>S M Rafiuddin</strong>, Md. Jahidul Islam Razin, and Tahira Alam"
+    venue_short: ICCA 2022
+    venue: "Proceedings of the 2nd International Conference on Computing Advancements, pp. 11–17, 2022."
+    paper: https://doi.org/10.1145/3542954.3542957
+    image: /assets/img/publications/ISOLATED.png
+    selected: false
+
+  - title: "High Cursive Complex Character Recognition Using GAN External Classifier"
+    authors: "<strong>S M Rafiuddin</strong>"
+    venue_short: ICCA 2022
+    venue: "Proceedings of the 2nd International Conference on Computing Advancements, pp. 466–472, 2022."
+    paper: https://doi.org/10.1145/3542954.3543021
+    image: /assets/img/publications/HIGH.png
+    selected: false
+
+  - title: "A Long Short-Term Memory (LSTM) Model for Business Sentiment Analysis Based on Recurrent Neural Network"
+    authors: "Md. Jahidul Islam Razin, Md. Abdul Karim, M. F. Mridha, <strong>S M Rafiuddin</strong>, and Tahira Alam"
+    venue_short: Springer 2021
+    venue: "Sustainable Communication Networks and Application, LNICST 55, pp. 1–15, 2021."
+    paper: https://doi.org/10.1007/978-981-15-8677-4_1
+    image: /assets/img/publications/LSTM.png
+    selected: false
+
+  - title: "Estimation of Phylogenetic Tree Using Gene Sequencing Data"
+    authors: "<strong>S M Rafiuddin</strong>"
+    venue_short: EICT 2019
+    venue: "2019 4th International Conference on Electrical Information and Communication Technology, pp. 1–5."
+    paper: https://ieeexplore.ieee.org/document/9068849/
+    image: /assets/img/publications/PHYLO.jpg
+    selected: false
+
+  - title: "Ranking of Bangla Word Graph Using Graph-Based Ranking Algorithms"
+    authors: "<strong>S M Rafiuddin</strong>"
+    venue_short: EICT 2017
+    venue: "2017 3rd International Conference on Electrical Information and Communication Technology, pp. 1–5."
+    paper: https://doi.org/10.1109/EICT.2017.8275214
+    image: /assets/img/publications/RANKING.png
+    selected: false
+
+  - title: "Performance Analysis of Supervised Machine Learning Algorithms for Text Classification"
+    authors: "Sadia Zaman Mishu and <strong>S M Rafiuddin</strong>"
+    venue_short: ICCIT 2016
+    venue: "2016 19th International Conference on Computer and Information Technology, pp. 409–413."
+    paper: https://doi.org/10.1109/ICCITECHN.2016.7860233
+    image: /assets/img/publications/ICCIT.png
+    selected: false
+
+workshops:
+  - title: "Constraint-Aware Counterfactual Editing for Aspect-Based Sentiment Analysis"
+    authors: "<strong>S M Rafiuddin</strong>, Vamsi Krishna Pavuluri, and Atriya Sen"
+    venue_short: HHAI-KEML 2026
+    venue: "2nd International Workshop on Informing Machine Learning with Knowledge Engineering, Brussels, Belgium, 2026."
+    paper: https://arxiv.org/abs/2607.13977
+    presentation: https://drive.google.com/file/d/1jGBMrubKl8PDbzJeR7t1WS9kzQb0suyx/view?usp=sharing
+    image: /assets/img/publications/CAVE.png
+    note: Peer-reviewed workshop paper

@@ -1,0 +1,31 @@
+<ol class="publication-list">
+  {% for publication in include.items %}
+  <li class="publication-item">
+    <div class="pub-row">
+      <div class="pub-visual">
+        {% if publication.image %}
+        <img src="{{ publication.image | relative_url }}" alt="Thumbnail for {{ publication.title | strip_html }}" loading="lazy">
+        <span class="venue-badge">{{ publication.venue_short }}</span>
+        {% else %}
+        <div class="venue-tile" aria-hidden="true">{{ publication.venue_short }}</div>
+        {% endif %}
+      </div>
+      <div class="pub-details">
+        <p class="pub-title">
+          {% if publication.paper %}<a href="{{ publication.paper }}" target="_blank" rel="noopener">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}
+        </p>
+        <p class="pub-authors">{{ publication.authors }}</p>
+        <p class="pub-venue">{{ publication.venue }}</p>
+        {% if publication.note %}<span class="pub-note">{{ publication.note }}</span>{% endif %}
+        <div class="pub-links">
+          {% if publication.paper %}<a href="{{ publication.paper }}" target="_blank" rel="noopener">Paper</a>{% endif %}
+          {% if publication.code %}<a href="{{ publication.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+          {% if publication.presentation %}<a href="{{ publication.presentation }}" target="_blank" rel="noopener">Presentation</a>{% endif %}
+          {% if publication.poster %}<a href="{{ publication.poster }}" target="_blank" rel="noopener">Poster</a>{% endif %}
+          {% if publication.video %}<a href="{{ publication.video }}" target="_blank" rel="noopener">Video</a>{% endif %}
+        </div>
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ol>

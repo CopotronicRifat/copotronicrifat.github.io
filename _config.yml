@@ -1,0 +1,49 @@
+# Site identity
+title: S M (Rifat) Rafiuddin
+short_title: Rifat Rafiuddin
+position: Ph.D. Student in Computer Science
+affiliation: Oklahoma State University
+affiliation_link: https://go.okstate.edu/
+advisor: Dr. Atriya Sen
+advisor_link: https://experts.okstate.edu/atriya.sen
+email: srafiud@okstate.edu
+location: Stillwater, Oklahoma
+
+# Search and sharing
+url: https://copotronicrifat.github.io
+baseurl: ""
+canonical: https://copotronicrifat.github.io/
+description: Academic homepage of S M (Rifat) Rafiuddin, a computer science researcher developing efficient, interpretable, and controllable language models.
+keywords: natural language processing, language models, parameter-efficient fine-tuning, mechanistic interpretability, causal reasoning, multimodal learning
+
+# Professional links
+google_scholar: https://scholar.google.com/citations?user=OqjlcUsAAAAJ
+cv_link: /assets/files/Rifat_Rafiuddin_CV.pdf
+resume_link: /assets/files/Rifat_Rafiuddin_Resume.pdf
+github_link: https://github.com/copotronicrifat
+linkedin: https://www.linkedin.com/in/copotronicrifat/
+twitter: https://twitter.com/CopotronicRifat
+dblp: https://dblp.org/pid/326/6287.html
+orcid: https://orcid.org/0000-0001-9404-1556
+acl_anthology: https://aclanthology.org/people/s-m-rafiuddin/
+openreview: https://openreview.net/profile?id=%7ERifat_Rafiuddin1
+blog: https://copotronicrifat.wordpress.com/
+
+# Local assets
+avatar: /assets/img/avatar.jpg
+favicon: /assets/img/favicon.png
+favicon_dark: /assets/img/favicon-dark.png
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+timezone: America/Chicago
+enable_footnote: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor/
+
