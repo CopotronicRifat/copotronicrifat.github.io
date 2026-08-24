@@ -30,7 +30,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <!-- Notion-style mono override -->
   <style id="notion-mono-override">
     :root {
@@ -367,173 +368,335 @@ nav ul li a {
 			
 
 			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta">Introduction</span>
-<h2 class="colorlib-heading">About Me</h2>
-<p>
-  I am a fourth-year Ph.D. student in 
-  <a style="text-decoration:none" href="https://cas.okstate.edu/department_of_computer_science/" target="_blank" rel="noopener noreferrer"><strong>Computer Science</strong></a> 
-  at 
-  <a style="text-decoration:none" href="https://go.okstate.edu/" target="_blank" rel="noopener noreferrer"><strong>Oklahoma State University</strong></a>, 
-  where I work in the 
-  <a style="text-decoration:none" href="https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/" target="_blank" rel="noopener noreferrer"><strong>Reasoning and Artificial Intelligence (rAIson) Lab</strong></a> 
-  under the supervision of 
-  <a style="text-decoration:none" href="https://experts.okstate.edu/atriya.sen" target="_blank" rel="noopener noreferrer"><strong>Dr. Atriya Sen</strong></a>. 
-  My research lies at the intersection of <strong>machine learning</strong>, <strong>deep learning</strong>, and <strong>natural language processing</strong>, with a focus on building efficient, interpretable, and reliable learning systems.
-</p>
+    <style>
+        [data-section="about"] .faculty-market-note {
+            margin: 22px 0;
+            padding: 12px 15px;
+            border-left: 3px solid #174f71;
+            background: #fafafa;
+            line-height: 1.55;
+        }
 
-<p>
-  My current research focuses on <strong>memory-efficient language models</strong>, <strong>explainability in large language models</strong>, and <strong>representation learning</strong>. I am particularly interested in methods that analyze and improve how language models retain information, represent reasoning behavior, and use computational resources efficiently. My recent work explores directions such as low-rank token masking, adaptive memory retention, symbolic planning in transformers, and cross-modal reasoning.
-</p>
+        [data-section="about"] .profile-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin: 20px 0 26px;
+        }
 
-<p>
-  Prior to beginning my Ph.D., I served as a 
-  <a style="text-decoration:none" href="https://cse.uap-bd.edu/faculties/faculty_details/19" target="_blank" rel="noopener noreferrer"><strong>Lecturer</strong></a> 
-  in the 
-  <a style="text-decoration:none" href="https://cse.uap-bd.edu" target="_blank" rel="noopener noreferrer"><strong>Department of Computer Science and Engineering</strong></a> 
-  at the 
-  <a style="text-decoration:none" href="https://uap-bd.edu/" target="_blank" rel="noopener noreferrer"><strong>University of Asia Pacific</strong></a>. 
-  In this role, I taught undergraduate computer science courses, including <strong>Machine Learning</strong>, <strong>Pattern Recognition</strong>, <strong>Algorithms</strong>, and <strong>Computer Graphics Lab</strong>, and mentored undergraduate research projects.
-</p>
+        [data-section="about"] .profile-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin: 0;
+            padding: 4px 9px;
+            border: 1px solid #555;
+            border-radius: 3px;
+            background: #fff;
+            color: #333;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 1.5;
+            text-decoration: none !important;
+        }
 
-<p>
-  I earned my Bachelor of Science in Computer Science and Engineering from 
-  <a style="text-decoration:none" href="https://ruet.ac.bd/" target="_blank" rel="noopener noreferrer"><strong>Rajshahi University of Engineering and Technology (RUET)</strong></a>.
-</p>
+        [data-section="about"] .profile-links a:hover,
+        [data-section="about"] .profile-links a:focus {
+            border-color: #174f71;
+            color: #174f71;
+            text-decoration: none !important;
+        }
 
-<p>
-  My long-term goal is to pursue an academic career that combines rigorous research, effective teaching, and sustained mentorship. I am broadly interested in developing machine learning methods that are not only technically strong but also interpretable, reproducible, and useful for real-world scientific and societal problems.
-</p>
+        [data-section="about"] .profile-links i {
+            width: 17px;
+            font-size: 16px;
+            text-align: center;
+        }
 
+        [data-section="about"] .phd-comic {
+            max-width: 700px;
+            margin: 28px auto 20px;
+            padding: 16px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background: #fafafa;
+            text-align: center;
+        }
 
+        [data-section="about"] .phd-comic img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+            border: 0;
+        }
 
-<!-- Centered, glowing "live" badge -->
-<style>
-  .center-cta{display:flex;justify-content:center;margin:0 0 8px 0}
-  .glow-cta{
-    font-weight:800;color:#B22222;margin:0;padding:10px 18px;border-radius:9999px;
-    text-align:center;display:inline-block;letter-spacing:.2px;
-    background:rgba(178,34,34,.06);
-    text-shadow:0 0 6px rgba(178,34,34,.65),0 0 12px rgba(178,34,34,.35);
-    box-shadow:0 0 0 0 rgba(178,34,34,.55),0 0 16px rgba(178,34,34,.45) inset;
-    animation:glowPulse 2s ease-in-out infinite
-  }
-  .glow-cta::before{
-    content:"";width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:8px;
-    background:#B22222;box-shadow:0 0 6px rgba(178,34,34,.9),0 0 20px rgba(178,34,34,.6);
-    animation:blink 1.2s ease-in-out infinite alternate
-  }
-  @keyframes glowPulse{
-    0%{box-shadow:0 0 0 0 rgba(178,34,34,.55),0 0 16px rgba(178,34,34,.45) inset}
-    70%{box-shadow:0 0 0 14px rgba(178,34,34,0),0 0 22px rgba(178,34,34,.55) inset}
-    100%{box-shadow:0 0 0 0 rgba(178,34,34,0),0 0 16px rgba(178,34,34,.45) inset}
-  }
-  @keyframes blink{from{opacity:.6}to{opacity:1}}
-  @media (prefers-reduced-motion: reduce){
-    .glow-cta,.glow-cta::before{animation:none}
-  }
-</style>
+        [data-section="about"] .phd-comic-caption {
+            margin: 12px 0 0;
+            color: #555;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+    </style>
 
-<!--
-<div class="center-cta">
-  <p class="glow-cta">I am actively looking for Summer Internship. <br>Contact me for availability: srafiud [at] okstate [dot] edu</p>
-</div>
--->
+    <div class="colorlib-narrow-content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row row-bottom-padded-sm animate-box"
+                     data-animate-effect="fadeInLeft">
 
-<div class="link-buttons">
-  <a href="files/Rifat_Rafiuddin_Resume.pdf" target="_blank" rel="noopener noreferrer">📄 Resume</a>
-  <a href="files/Rifat_Rafiuddin_CV.pdf" target="_blank" rel="noopener noreferrer">🪪 CV</a>
-  <a href="https://github.com/CopotronicRifat" target="_blank" rel="noopener noreferrer">🐙 GitHub</a>
-  <a href="https://scholar.google.com/citations?user=OqjlcUsAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer">🎓 Google Scholar</a>
-  <a href="https://dblp.org/pid/326/6287.html" target="_blank" rel="noopener noreferrer">📚 DBLP</a>
-  <a href="https://www.semanticscholar.org/author/S-M-Rafiuddin/46961317" target="_blank" rel="noopener noreferrer">📖 Semantic Scholar</a>
-  <a href="https://aclanthology.org/people/s-m-rafiuddin/" target="_blank" rel="noopener noreferrer">📝 ACL Anthology</a>
-  <a href="https://openreview.net/profile?id=%7ERifat_Rafiuddin1" target="_blank" rel="noopener noreferrer">🔍 OpenReview</a>
-  <a href="https://orcid.org/0000-0001-9404-1556" target="_blank" rel="noopener noreferrer">🆔 ORCID</a>
-  <a href="https://www.linkedin.com/in/copotronicrifat/" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a>
-  <a href="https://twitter.com/CopotronicRifat" target="_blank" rel="noopener noreferrer">✖️ X</a>
-  <a href="https://copotronicrifat.wordpress.com/" target="_blank" rel="noopener noreferrer">✍️ Personal Blog</a>
-</div>
+                    <div class="col-md-12">
+                        <div class="about-desc">
 
-<style>
-.link-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-}
+                            <span class="heading-meta">Introduction</span>
+                            <h2 class="colorlib-heading">About Me</h2>
 
-.link-buttons a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 155px;
-  height: 42px;
-  padding: 0 16px;
+                            <p>
+                                I am a fourth-year Ph.D. student in
+                                <a href="https://cas.okstate.edu/department_of_computer_science/"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <strong>Computer Science</strong>
+                                </a>
+                                at
+                                <a href="https://go.okstate.edu/"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <strong>Oklahoma State University</strong>
+                                </a>,
+                                where I conduct research in the
+                                <a href="https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <strong>Reasoning and Artificial Intelligence
+                                    (rAIson) Lab</strong>
+                                </a>
+                                under the supervision of
+                                <a href="https://experts.okstate.edu/atriya.sen"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <strong>Dr. Atriya Sen</strong>
+                                </a>.
+                                I expect to complete my Ph.D. in July 2027.
+                            </p>
 
-  font-size: 15px;
-  font-weight: 600;
-  color: #0f172a;
-  text-decoration: none;
+                            <p>
+                                <strong>Research program.</strong>
+                                I develop efficient, interpretable, and
+                                controllable language models through
+                                representation-guided adaptation and targeted
+                                intervention. My research connects
+                                parameter-efficient learning, mechanistic
+                                analysis, causal and counterfactual reasoning,
+                                and multimodal representation learning.
+                            </p>
 
-  background-color: #f8fafc;
-  border: 1px solid #cbd5e1;
-  border-radius: 8px;
+                            <p>
+                                My recent work investigates dynamic low-rank
+                                routing, representation-guided token retention,
+                                adaptive memory, symbolic planning in
+                                transformers, and causal analysis of sentiment
+                                shifts in social-media conversations. Across
+                                these directions, I emphasize rigorous
+                                evaluation, computational efficiency,
+                                interpretability, robustness, and reproducible
+                                experimentation.
+                            </p>
 
-  transition: all 0.2s ease;
-}
+                            <p>
+                                <strong>Teaching and mentoring.</strong>
+                                At Oklahoma State University, I have supported
+                                undergraduate courses in programming, operating
+                                systems, algorithms, discrete mathematics,
+                                databases, computer security, and social issues
+                                in computing. Before beginning my Ph.D., I
+                                served as a lecturer and instructor of record at
+                                the
+                                <a href="https://uap-bd.edu/"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <strong>University of Asia Pacific</strong>
+                                </a>
+                                and
+                                <a href="https://uttarauniversity.edu.bd/"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <strong>Uttara University</strong>
+                                </a>.
+                            </p>
 
-.link-buttons a:hover {
-  color: #ffffff;
-  background-color: #0891b2;
-  border-color: #0891b2;
-  text-decoration: none;
-  transform: translateY(-2px);
-}
+                            <p>
+                                As a lecturer, I designed and delivered courses
+                                in machine learning, pattern recognition,
+                                algorithms, operating systems, discrete
+                                mathematics, programming, and computer graphics.
+                                I also developed assignments and examinations,
+                                supervised undergraduate projects, and mentored
+                                student research from problem formulation
+                                through experimental evaluation and scholarly
+                                communication.
+                            </p>
 
-.link-buttons a:active {
-  transform: translateY(0);
-}
-</style>
+                            <p>
+                                I earned my B.Sc. in Computer Science and
+                                Engineering from
+                                <a href="https://ruet.ac.bd/"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <strong>Rajshahi University of Engineering
+                                    and Technology (RUET)</strong>
+                                </a>.
+                            </p>
 
+                            <p>
+                                <strong>Faculty vision.</strong>
+                                My goal is to establish an independent research
+                                program that advances reliable and resource-aware
+                                artificial intelligence while creating meaningful
+                                opportunities for student participation. I aim
+                                to integrate rigorous research, inclusive
+                                teaching, sustained mentorship, reproducible
+                                scholarship, and responsible applications of
+                                artificial intelligence.
+                            </p>
 
+                            <div class="faculty-market-note">
+                                <strong>Faculty job market:</strong>
+                                I am seeking tenure-track Assistant Professor
+                                positions in Computer Science beginning in
+                                Fall 2027.
+                            </div>
 
+                            <div class="profile-links"
+                                 aria-label="Academic and professional profiles">
 
+                                <a href="mailto:srafiud@okstate.edu">
+                                    <i class="fa-solid fa-envelope"
+                                       aria-hidden="true"></i>
+                                    Email
+                                </a>
 
-<br>
-<br>
+                                <a href="files/Rifat_Rafiuddin_CV.pdf"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="ai ai-cv"
+                                       aria-hidden="true"></i>
+                                    Academic CV
+                                </a>
 
-<div style="border:1px solid #ccc; border-radius:8px; padding:16px; max-width:700px; margin:20px auto; text-align:center; background:#fafafa;">
-  <a href="https://phdcomics.com/comics/archive.php?comicid=1759" target="_blank" rel="noopener noreferrer">
-    <img src="https://phdcomics.com/comics/archive/phd110714s.gif"
-         alt="PhD Comics — The Research Cycle (Strip #1759)"
-         loading="lazy"
-         style="max-width:100%; height:auto; border:0; display:block; margin:0 auto;">
-  </a>
-  <p style="margin-top:12px; font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; color:#555;">
-    “The Research Cycle” — <i>Piled Higher and Deeper</i> by Jorge Cham.<br>
-    © Piled Higher and Deeper Publishing, LLC. 
-    <a href="https://phdcomics.com/comics/archive.php?comicid=1759" target="_blank" rel="noopener noreferrer">Source</a>
-  </p>
-</div>
+                                <a href="files/Rifat_Rafiuddin_Resume.pdf"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fa-solid fa-file-lines"
+                                       aria-hidden="true"></i>
+                                    Résumé
+                                </a>
 
+                                <a href="https://scholar.google.com/citations?user=OqjlcUsAAAAJ"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="ai ai-google-scholar"
+                                       aria-hidden="true"></i>
+                                    Google Scholar
+                                </a>
 
+                                <a href="https://dblp.org/pid/326/6287.html"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="ai ai-dblp"
+                                       aria-hidden="true"></i>
+                                    DBLP
+                                </a>
 
+                                <a href="https://www.semanticscholar.org/author/S-M-Rafiuddin/46961317"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="ai ai-semantic-scholar"
+                                       aria-hidden="true"></i>
+                                    Semantic Scholar
+                                </a>
 
-                
-									</div>
-								</div>
-						</div>
-					</div>
-				</div>
-			</section>
+                                <a href="https://aclanthology.org/people/s-m-rafiuddin/"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fa-solid fa-book-open"
+                                       aria-hidden="true"></i>
+                                    ACL Anthology
+                                </a>
+
+                                <a href="https://openreview.net/profile?id=%7ERifat_Rafiuddin1"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fa-regular fa-comments"
+                                       aria-hidden="true"></i>
+                                    OpenReview
+                                </a>
+
+                                <a href="https://orcid.org/0000-0001-9404-1556"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="ai ai-orcid"
+                                       aria-hidden="true"></i>
+                                    ORCID
+                                </a>
+
+                                <a href="https://github.com/CopotronicRifat"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"
+                                       aria-hidden="true"></i>
+                                    GitHub
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/copotronicrifat/"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fa-brands fa-linkedin"
+                                       aria-hidden="true"></i>
+                                    LinkedIn
+                                </a>
+
+                                <a href="https://twitter.com/CopotronicRifat"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fa-brands fa-x-twitter"
+                                       aria-hidden="true"></i>
+                                    X
+                                </a>
+
+                                <a href="https://copotronicrifat.wordpress.com/"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fa-brands fa-wordpress"
+                                       aria-hidden="true"></i>
+                                    Personal Blog
+                                </a>
+
+                            </div>
+
+                            <!-- PhD Comics panel retained -->
+                            <div class="phd-comic">
+                                <a href="https://phdcomics.com/comics/archive.php?comicid=1759"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+
+                                    <img src="https://phdcomics.com/comics/archive/phd110714s.gif"
+                                         alt="PhD Comics — The Research Cycle, Strip 1759"
+                                         loading="lazy">
+                                </a>
+
+                                <p class="phd-comic-caption">
+                                    “The Research Cycle” —
+                                    <i>Piled Higher and Deeper</i> by Jorge Cham.<br>
+                                    © Piled Higher and Deeper Publishing, LLC.
+                                    <a href="https://phdcomics.com/comics/archive.php?comicid=1759"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        Source
+                                    </a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 			<section class="colorlib-about" data-section="news">
     <style>
