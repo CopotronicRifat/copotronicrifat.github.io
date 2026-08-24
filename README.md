@@ -1,33 +1,28 @@
 # Academic website — S M (Rifat) Rafiuddin
 
-This repository contains a faculty-search-focused academic website for GitHub Pages. Its visual structure is adapted from [Minimal Light](https://github.com/yaoyao-liu/minimal-light), with custom content architecture, typography, responsive behavior, and publication components.
+This repository contains a single-page, faculty-search-focused academic website for GitHub Pages. Its layout is adapted from [Minimal Light](https://github.com/yaoyao-liu/minimal-light), with the original portfolio's section structure, monospace typography, institutional logos, detailed academic content, and PhD Comics feature.
 
 ## Publish on GitHub Pages
 
-1. Replace the contents of the `copotronicrifat.github.io` repository with the contents of this folder.
+1. Replace the contents of the copotronicrifat.github.io repository with the contents of this folder.
 2. Commit and push to the repository's default branch.
-3. In **Settings → Pages**, select **Deploy from a branch**, then choose the default branch and `/ (root)`.
-4. Allow GitHub Pages a few minutes to build the site.
+3. In Settings → Pages, select Deploy from a branch, then choose the default branch and the repository root.
+4. Allow GitHub Pages a few minutes to rebuild the site.
 
-## Edit content
+## Site structure
 
-- Homepage: `index.md`
-- Publication records: `_data/publications.yml`
-- Full publication page: `publications.md`
-- Teaching and mentoring: `teaching.md`
-- Research/software projects: `projects.md`
-- News archive: `news.md`
-- PhD Comics and personal links: `personal.md`
-- Identity, links, and metadata: `_config.yml`
-- Site styling: `assets/css/style.css`
+- Homepage and all visible content: index.md
+- Publication records: _data/publications.yml
+- Publication component: _includes/publications.html
+- Profile, icon links, and navigation: _layouts/homepage.html
+- Identity, profile URLs, and metadata: _config.yml
+- Styling: assets/css/style.css
+- Current CV: assets/files/Rifat_Rafiuddin_CV.pdf
 
-The current CV is stored at `assets/files/Rifat_Rafiuddin_CV.pdf`.
+Navigation uses same-page anchors:
+
+About → News → Education → Experience → Publications → Projects and Research → Misc Links → Contact
 
 ## Local preview
 
-```bash
-bundle install
-bundle exec jekyll serve
-```
-
-Then open the local address printed by Jekyll.
+Run bundle install, followed by bundle exec jekyll serve.

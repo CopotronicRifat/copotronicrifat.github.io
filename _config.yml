@@ -27,6 +27,7 @@ dblp: https://dblp.org/pid/326/6287.html
 orcid: https://orcid.org/0000-0001-9404-1556
 acl_anthology: https://aclanthology.org/people/s-m-rafiuddin/
 openreview: https://openreview.net/profile?id=%7ERifat_Rafiuddin1
+semantic_scholar: https://www.semanticscholar.org/author/S-M-Rafiuddin/46961317
 blog: https://copotronicrifat.wordpress.com/
 
 # Local assets
@@ -46,4 +47,3 @@ exclude:
   - README.md
   - LICENSE
   - vendor/
-
