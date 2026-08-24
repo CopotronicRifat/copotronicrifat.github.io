@@ -1429,97 +1429,334 @@ nav ul li a {
 
 
 			<section class="colorlib-work" data-section="research">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Works</span>
-							<h2 class="colorlib-heading animate-box">RESEARCH AND PROJECT DOCUMENTATION</h2>
-						</div>
-					</div>
+    <style>
+        [data-section="research"] .research-intro {
+            margin-bottom: 24px;
+        }
 
-<ul>
+        [data-section="research"] .research-group {
+            margin-top: 28px;
+        }
 
+        [data-section="research"] .research-group h3 {
+            margin-bottom: 6px;
+        }
 
+        [data-section="research"] .research-project-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
 
-<li>
-  <b>Estimating Influenza Cases using Numerical Methods and Machine Learning (2024).</b><br>
-  Compared traditional SVIR-based numerical solvers (Midpoint, RK4) with deep learning models (LSTM, CNN, FTA-LSTM) and Random Forest for predicting H1N1 outbreaks; Random Forest with direct forecast achieved the best accuracy on real-world data.<br>
-  <a href="https://github.com/CopotronicRifat/Numerical-Methods-for-Estimating-Influenza-Cases" target="_blank" rel="noopener noreferrer" class="btn-badge btn-github">GitHub</a>
-</li>
+        [data-section="research"] .research-project-list > li {
+            margin: 0;
+            padding: 16px 0;
+            border-bottom: 1px solid #e2e2e2;
+        }
 
-<li>
-  <b>Adaptive Blockchain with Dynamic Difficulty and SJF Prioritization (2024).</b><br>
-  Designed a blockchain simulation with dynamic difficulty adjustment and Shortest Job First (SJF) prioritization using a minimum priority queue to improve throughput, reduce queue length, and lower waiting time under high transaction loads; developed as part of OSU’s CS5113 course.<br>
-  <a href="https://github.com/CopotronicRifat/Adaptive-Blockchain" target="_blank" rel="noopener noreferrer" class="btn-badge btn-github">GitHub</a>
-</li>
+        [data-section="research"] .research-project-title {
+            display: block;
+            margin-bottom: 4px;
+            line-height: 1.45;
+        }
 
-<li>
-  <b>Sentiment Analysis on Cloud Platforms (2022).</b><br>
-  Developed and compared sentiment analysis pipelines across AWS Comprehend, Google Cloud NLP, and IBM Watson to evaluate API-based NLP sentiment classification on real-world datasets.<br>
-  <a href="https://github.com/CopotronicRifat/Sentiment-Analysis-on-Cloud-Platforms" target="_blank" rel="noopener noreferrer" class="btn-badge btn-github">GitHub</a>
-</li>
+        [data-section="research"] .research-project-description {
+            margin: 0;
+            line-height: 1.55;
+        }
 
-<li>
-  <b>GO-CART – 3D Unity Game (2021).</b><br>
-  Designed a Unity-based 3D racing game with smooth player movement (W/A/S/D), third-person camera tracking, and physics-based controls. The game features real-time scoring, collision detection, and a game over system triggered on crash or completion.<br>
-  <a href="https://github.com/CopotronicRifat/GO-CART-UNITY" target="_blank" rel="noopener noreferrer" class="btn-badge btn-github">GitHub</a>
-</li>
+        [data-section="research"] .research-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 7px;
+        }
 
-<li>
-  <b>Breast Cancer Detection using Deep Learning (2021).</b><br>
-  Built multiple CNN-based models including Inception, VGG16, MobileNet, and Transformers to detect Invasive Ductal Carcinoma (IDC) in histopathology images; evaluated on Kaggle's IDC dataset.<br>
-  <a href="https://github.com/CopotronicRifat/Breast-Cancer-Detection-ML-Project" target="_blank" rel="noopener noreferrer" class="btn-badge btn-github">GitHub</a>
-</li>
+        [data-section="research"] .research-actions .btn-badge {
+            margin: 0;
+            padding: 2px 7px;
+            border: 1px solid #555;
+            border-radius: 3px;
+            background: #fff !important;
+            color: #333 !important;
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1.5;
+            text-decoration: none !important;
+        }
+    </style>
 
-<li>
-  <b>Image Embedding with Classification by Deep Neural Networks (2021).</b><br>
-  Developed a deep learning pipeline using Xception to extract and visualize image embeddings for classification tasks. Includes TensorBoard-based 2D/3D demo.<br>
-  <a href="https://github.com/CopotronicRifat/Embedding" target="_blank" rel="noopener noreferrer" class="btn-badge btn-github">GitHub</a>
-  <a href="https://dl.acm.org/doi/abs/10.1145/3542954.3543021" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
-</li>
+    <div class="colorlib-narrow-content">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                 data-animate-effect="fadeInLeft">
+                <span class="heading-meta">Research Portfolio</span>
+                <h2 class="colorlib-heading animate-box">
+                    SELECTED RESEARCH SOFTWARE AND COMPUTATIONAL PROJECTS
+                </h2>
+            </div>
+        </div>
 
-<li>
-  <b>Data Augmentation with Generative Adversarial Networks (2021).</b><br>
-  Implements adaptive discriminator augmentation to stabilize GAN training on limited datasets, supporting Bangla character/numeral synthesis and multiple architectures. Includes demo visualization.<br>
-  <a href="https://github.com/CopotronicRifat/ADA-GAN" target="_blank" rel="noopener noreferrer" class="btn-badge btn-github">GitHub</a>
-  <a href="https://www.youtube.com/watch?v=h8uP7wkWzSQ&ab_channel=SMRafiuddinRifat" target="_blank" rel="noopener noreferrer" class="btn-badge btn-demo">Demo</a>
-</li>
+        <p class="research-intro">
+            Selected projects demonstrating experience in machine learning,
+            natural language processing, computational modeling, scientific
+            software development, and reproducible experimentation.
+        </p>
 
-<li>
-  <b>Protein Structure Prediction using PyRosetta (2020).</b><br>
-  Developed molecular modeling pipelines using PyRosetta for protein structure prediction and refinement as part of my graduate thesis.<br>
-  <a href="https://github.com/CopotronicRifat/Protein-Structure-Prediction-using-PyRosetta" target="_blank" rel="noopener noreferrer" class="btn-badge btn-github">GitHub</a>
-</li>
+        <!-- Machine Learning, NLP, and Data-Driven Modeling -->
+        <div class="research-group">
+            <h3>Machine Learning, NLP, and Data-Driven Modeling</h3>
 
-<li>
-  <b>Phylogenetic Tree Construction with Genetic Algorithms (2019).</b><br>
-  Applied genetic algorithms for evolutionary tree estimation using gene sequencing data; includes modular support for multiple genome datasets from NCBI.<br>
-  <a href="https://github.com/CopotronicRifat/Phylogenetic-Tree-Analysis-with-Genetic-Algorithms" target="_blank" rel="noopener noreferrer" class="btn-badge btn-github">GitHub</a>
-  <a href="https://ieeexplore.ieee.org/abstract/document/9068849" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
-</li>
+            <ul class="research-project-list">
 
-<li>
-  <b>Performance Analysis of Text Classification in NLP with Supervised Machine Learning Algorithms (2016).</b><br>
-  Evaluated various supervised models including ANN with Backpropagation for classifying labeled text datasets; conducted as undergraduate thesis work.<br>
-  <a href="https://github.com/CopotronicRifat/Text-Classification-using-Supervised-Learning-Algorithms" target="_blank" rel="noopener noreferrer" class="btn-badge btn-github">GitHub</a>
-  <a href="https://ieeexplore.ieee.org/abstract/document/7860233/" target="_blank" rel="noopener noreferrer" class="btn-badge btn-paper">Paper</a>
-</li>
+                <li>
+                    <span class="research-project-title">
+                        <b>Estimating Influenza Cases Using Numerical Methods and Machine Learning (2024)</b>
+                    </span>
 
-<li>
-  <b>Java Scientific Calculator (2014).</b><br>
-  Built a desktop-based scientific calculator using Java Swing, featuring basic arithmetic, trigonometric, logarithmic, and exponential functions with keyboard and GUI input support.<br>
-  <a href="https://github.com/CopotronicRifat/Java-Scientific-Calculator" target="_blank" rel="noopener noreferrer" class="btn-badge btn-github">GitHub</a>
-</li>
+                    <p class="research-project-description">
+                        Compared SVIR-based numerical solvers, including the
+                        midpoint and fourth-order Runge–Kutta methods, with LSTM,
+                        CNN, FTA-LSTM, and Random Forest models for forecasting
+                        H1N1 outbreaks. Random Forest with direct forecasting
+                        produced the strongest performance on the evaluated
+                        real-world data.
+                    </p>
 
+                    <div class="research-actions">
+                        <a href="https://github.com/CopotronicRifat/Numerical-Methods-for-Estimating-Influenza-Cases"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-github">Code</a>
+                    </div>
+                </li>
 
-</ul>
+                <li>
+                    <span class="research-project-title">
+                        <b>Sentiment Analysis on Cloud Platforms (2022)</b>
+                    </span>
 
-    </b>
-				</div>
-				
-				
+                    <p class="research-project-description">
+                        Developed and compared sentiment-analysis pipelines
+                        using AWS Comprehend, Google Cloud Natural Language, and
+                        IBM Watson to evaluate API-based NLP classification on
+                        real-world textual data.
+                    </p>
+
+                    <div class="research-actions">
+                        <a href="https://github.com/CopotronicRifat/Sentiment-Analysis-on-Cloud-Platforms"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-github">Code</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="research-project-title">
+                        <b>Breast Cancer Detection Using Deep Learning (2021)</b>
+                    </span>
+
+                    <p class="research-project-description">
+                        Developed and evaluated Inception, VGG16, MobileNet,
+                        transformer, and other deep-learning architectures for
+                        detecting invasive ductal carcinoma in histopathology
+                        images from the Kaggle IDC dataset.
+                    </p>
+
+                    <div class="research-actions">
+                        <a href="https://github.com/CopotronicRifat/Breast-Cancer-Detection-ML-Project"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-github">Code</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="research-project-title">
+                        <b>Image Embedding and Classification Using Deep Neural Networks (2021)</b>
+                    </span>
+
+                    <p class="research-project-description">
+                        Developed an Xception-based pipeline for extracting,
+                        visualizing, and classifying image embeddings, including
+                        interactive two- and three-dimensional TensorBoard
+                        visualizations.
+                    </p>
+
+                    <div class="research-actions">
+                        <a href="https://github.com/CopotronicRifat/Embedding"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-github">Code</a>
+
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3542954.3543021"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-paper">Paper</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="research-project-title">
+                        <b>Data Augmentation with Generative Adversarial Networks (2021)</b>
+                    </span>
+
+                    <p class="research-project-description">
+                        Implemented adaptive discriminator augmentation to
+                        stabilize GAN training under limited-data conditions,
+                        with support for Bangla character and numeral synthesis
+                        across multiple generative architectures.
+                    </p>
+
+                    <div class="research-actions">
+                        <a href="https://github.com/CopotronicRifat/ADA-GAN"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-github">Code</a>
+
+                        <a href="https://www.youtube.com/watch?v=h8uP7wkWzSQ&ab_channel=SMRafiuddinRifat"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-demo">Demo</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="research-project-title">
+                        <b>Performance Analysis of Supervised Machine Learning Algorithms for Text Classification (2016)</b>
+                    </span>
+
+                    <p class="research-project-description">
+                        Evaluated supervised learning methods, including an
+                        artificial neural network trained through
+                        backpropagation, for classifying labeled textual
+                        datasets as part of undergraduate thesis research.
+                    </p>
+
+                    <div class="research-actions">
+                        <a href="https://github.com/CopotronicRifat/Text-Classification-using-Supervised-Learning-Algorithms"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-github">Code</a>
+
+                        <a href="https://ieeexplore.ieee.org/abstract/document/7860233/"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-paper">Paper</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Computational Methods and Intelligent Systems -->
+        <div class="research-group">
+            <h3>Computational Methods and Intelligent Systems</h3>
+
+            <ul class="research-project-list">
+
+                <li>
+                    <span class="research-project-title">
+                        <b>Adaptive Blockchain with Dynamic Difficulty and SJF Prioritization (2024)</b>
+                    </span>
+
+                    <p class="research-project-description">
+                        Designed a blockchain simulation combining dynamic
+                        difficulty adjustment with shortest-job-first
+                        transaction prioritization through a minimum priority
+                        queue to improve throughput and reduce waiting time
+                        under high transaction loads.
+                    </p>
+
+                    <div class="research-actions">
+                        <a href="https://github.com/CopotronicRifat/Adaptive-Blockchain"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-github">Code</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="research-project-title">
+                        <b>Protein Structure Prediction Using PyRosetta (2020)</b>
+                    </span>
+
+                    <p class="research-project-description">
+                        Developed molecular-modeling pipelines using PyRosetta
+                        for protein structure prediction, energy-based
+                        evaluation, and structural refinement.
+                    </p>
+
+                    <div class="research-actions">
+                        <a href="https://github.com/CopotronicRifat/Protein-Structure-Prediction-using-PyRosetta"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-github">Code</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="research-project-title">
+                        <b>Phylogenetic Tree Construction with Genetic Algorithms (2019)</b>
+                    </span>
+
+                    <p class="research-project-description">
+                        Applied genetic algorithms to evolutionary-tree
+                        estimation using gene-sequencing data and developed
+                        modular support for multiple genomic datasets obtained
+                        from NCBI.
+                    </p>
+
+                    <div class="research-actions">
+                        <a href="https://github.com/CopotronicRifat/Phylogenetic-Tree-Analysis-with-Genetic-Algorithms"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-github">Code</a>
+
+                        <a href="https://ieeexplore.ieee.org/abstract/document/9068849"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-paper">Paper</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Additional Software Projects -->
+        <div class="research-group">
+            <h3>Additional Software Development</h3>
+
+            <ul class="research-project-list">
+
+                <li>
+                    <span class="research-project-title">
+                        <b>GO-CART: 3D Unity Game (2021)</b>
+                    </span>
+
+                    <p class="research-project-description">
+                        Developed a Unity-based 3D racing game with
+                        physics-based movement, third-person camera tracking,
+                        collision detection, real-time scoring, and event-driven
+                        game-completion logic.
+                    </p>
+
+                    <div class="research-actions">
+                        <a href="https://github.com/CopotronicRifat/GO-CART-UNITY"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-github">Code</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="research-project-title">
+                        <b>Java Scientific Calculator (2014)</b>
+                    </span>
+
+                    <p class="research-project-description">
+                        Developed a Java Swing desktop calculator supporting
+                        arithmetic, trigonometric, logarithmic, and exponential
+                        operations through graphical and keyboard-based input.
+                    </p>
+
+                    <div class="research-actions">
+                        <a href="https://github.com/CopotronicRifat/Java-Scientific-Calculator"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-badge btn-github">Code</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
 </section>
-
 
 
 
